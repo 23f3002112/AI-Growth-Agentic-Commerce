@@ -8,7 +8,7 @@ import json
 
 
 class CatalogDiscovery:
-    def __init__(self, catalog_path="../catalog/merchant_catalog_agent_readable.json"):
+    def __init__(self, catalog_path="merchant_catalog_agent_readable.json"):
         with open(catalog_path) as f:
             data = json.load(f)
         self.items = data["items"]

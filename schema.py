@@ -13,6 +13,7 @@ campaigns) builds on top of.
 """
 
 import json
+import datetime
 
 
 def to_agent_readable(raw_catalog: list) -> dict:
@@ -46,6 +47,9 @@ def to_agent_readable(raw_catalog: list) -> dict:
                     "return_window_days": product["return_window_days"],
                 },
                 "rating": product["rating"],
+                "search_keywords": list(set([
+                    t.lower() for t in product["name"].split() + [product["category"]] + list({k: v for k, v in variant.items() if k not in ("sku", "price", "stock")}.values())
+                ])),
             })
 
     return {
@@ -54,6 +58,7 @@ def to_agent_readable(raw_catalog: list) -> dict:
             "name": "Demo Merchant Pvt Ltd",
             "supports_agentic_checkout": True,
             "payment_gateway": "razorpay_test_mode",
+            "last_updated": datetime.datetime.now(datetime.timezone.utc).isoformat()
         },
         "catalog_size": len(entries),
         "items": entries,

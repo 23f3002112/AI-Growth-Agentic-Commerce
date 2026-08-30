@@ -1,370 +1,396 @@
 [
   {
     "product_id": "PROD1001",
-    "name": "Sneakers",
-    "category": "Footwear",
-    "description": "Sneakers - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2979.0,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "description": "Bluetooth Speaker with premium build quality and excellent features.",
+    "base_price": 4049.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1001-9-GRE",
-        "size": "9",
-        "color": "Grey",
-        "price": 2929.0,
-        "stock": 0
+        "sku": "PROD1001-BLA",
+        "color": "Black",
+        "price": 4249.0,
+        "stock": 25
       },
       {
-        "sku": "PROD1001-6-GRE",
-        "size": "6",
-        "color": "Grey",
-        "price": 2979.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1001-9-WHI",
-        "size": "9",
-        "color": "White",
-        "price": 2979.0,
-        "stock": 12
+        "sku": "PROD1001-BLU",
+        "color": "Blue",
+        "price": 4049.0,
+        "stock": 25
       }
     ],
-    "rating": 4.3,
+    "rating": 3.8,
     "return_window_days": 7
   },
   {
     "product_id": "PROD1002",
-    "name": "Cotton T-Shirt",
-    "category": "Apparel",
-    "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2219.0,
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "description": "Non-stick Pan with premium build quality and excellent features.",
+    "base_price": 569.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1002-L-MAR",
-        "size": "L",
-        "color": "Maroon",
-        "price": 2169.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1002-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 2319.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1002-L-WHI",
-        "size": "L",
-        "color": "White",
-        "price": 2169.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1002-M-NAV",
-        "size": "M",
-        "color": "Navy",
-        "price": 2319.0,
+        "sku": "PROD1002-BLU",
+        "color": "Blue",
+        "price": 569.0,
         "stock": 0
       },
       {
-        "sku": "PROD1002-M-WHI",
-        "size": "M",
+        "sku": "PROD1002-WHI",
         "color": "White",
-        "price": 2219.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1002-XL-NAV",
-        "size": "XL",
-        "color": "Navy",
-        "price": 2219.0,
-        "stock": 0
+        "price": 569.0,
+        "stock": 25
       }
     ],
     "rating": 4.3,
-    "return_window_days": 15
+    "return_window_days": 7
   },
   {
     "product_id": "PROD1003",
-    "name": "Sandals",
+    "name": "Running Shoes",
     "category": "Footwear",
-    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 4659.0,
+    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3789.0,
     "currency": "INR",
     "variants": [
-      {
-        "sku": "PROD1003-10-WHI",
-        "size": "10",
-        "color": "White",
-        "price": 4759.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1003-10-GRE",
-        "size": "10",
-        "color": "Grey",
-        "price": 4759.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1003-9-WHI",
-        "size": "9",
-        "color": "White",
-        "price": 4609.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1003-6-BLA",
-        "size": "6",
-        "color": "Black",
-        "price": 4609.0,
-        "stock": 0
-      },
       {
         "sku": "PROD1003-8-WHI",
         "size": "8",
         "color": "White",
-        "price": 4659.0,
-        "stock": 2
+        "price": 3789.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1003-10-BLA",
+        "size": "10",
+        "color": "Black",
+        "price": 3789.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1003-7-BLA",
+        "size": "7",
+        "color": "Black",
+        "price": 3739.0,
+        "stock": 50
       }
     ],
-    "rating": 4.2,
+    "rating": 3.9,
     "return_window_days": 15
   },
   {
     "product_id": "PROD1004",
-    "name": "Cotton T-Shirt",
-    "category": "Apparel",
-    "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2729.0,
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "description": "Non-stick Pan with premium build quality and excellent features.",
+    "base_price": 1419.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1004-S-MAR",
-        "size": "S",
-        "color": "Maroon",
-        "price": 2679.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1004-M-WHI",
-        "size": "M",
-        "color": "White",
-        "price": 2679.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1004-XL-WHI",
-        "size": "XL",
-        "color": "White",
-        "price": 2729.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1004-M-OLI",
-        "size": "M",
-        "color": "Olive",
-        "price": 2679.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1004-L-OLI",
-        "size": "L",
-        "color": "Olive",
-        "price": 2829.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1004-L-WHI",
-        "size": "L",
-        "color": "White",
-        "price": 2679.0,
-        "stock": 50
-      }
-    ],
-    "rating": 4.3,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1005",
-    "name": "Sandals",
-    "category": "Footwear",
-    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 4419.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1005-10-GRE",
-        "size": "10",
-        "color": "Grey",
-        "price": 4419.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1005-9-BLA",
-        "size": "9",
+        "sku": "PROD1004-BLA",
         "color": "Black",
-        "price": 4519.0,
-        "stock": 12
+        "price": 1619.0,
+        "stock": 25
       },
       {
-        "sku": "PROD1005-7-GRE",
-        "size": "7",
-        "color": "Grey",
-        "price": 4519.0,
-        "stock": 0
+        "sku": "PROD1004-WHI",
+        "color": "White",
+        "price": 1319.0,
+        "stock": 3
       }
     ],
     "rating": 4.5,
-    "return_window_days": 15
+    "return_window_days": 10
   },
   {
-    "product_id": "PROD1006",
-    "name": "Wireless Earbuds",
-    "category": "Electronics",
-    "description": "Wireless Earbuds with premium build quality and long battery life.",
-    "base_price": 4549.0,
+    "product_id": "PROD1005",
+    "name": "Cotton T-Shirt",
+    "category": "Apparel",
+    "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 2089.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1006-WHI",
+        "sku": "PROD1005-L-NAV",
+        "size": "L",
+        "color": "Navy",
+        "price": 2039.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1005-S-NAV",
+        "size": "S",
+        "color": "Navy",
+        "price": 2089.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1005-L-MAR",
+        "size": "L",
+        "color": "Maroon",
+        "price": 2189.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1005-M-NAV",
+        "size": "M",
+        "color": "Navy",
+        "price": 2039.0,
+        "stock": 2
+      },
+      {
+        "sku": "PROD1005-M-WHI",
+        "size": "M",
         "color": "White",
-        "price": 4549.0,
-        "stock": 10
+        "price": 2039.0,
+        "stock": 30
+      }
+    ],
+    "rating": 4.0,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1006",
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "description": "Bluetooth Speaker with premium build quality and excellent features.",
+    "base_price": 5819.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1006-BLA",
+        "color": "Black",
+        "price": 5819.0,
+        "stock": 0
       },
       {
         "sku": "PROD1006-BLU",
         "color": "Blue",
-        "price": 4449.0,
-        "stock": 0
+        "price": 5719.0,
+        "stock": 10
       },
       {
-        "sku": "PROD1006-BLA",
-        "color": "Black",
-        "price": 4549.0,
-        "stock": 0
-      }
-    ],
-    "rating": 4.9,
-    "return_window_days": 10
-  },
-  {
-    "product_id": "PROD1007",
-    "name": "Cotton T-Shirt",
-    "category": "Apparel",
-    "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1599.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1007-L-BLA",
-        "size": "L",
-        "color": "Black",
-        "price": 1549.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1007-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 1549.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1007-L-WHI",
-        "size": "L",
+        "sku": "PROD1006-WHI",
         "color": "White",
-        "price": 1699.0,
+        "price": 5719.0,
         "stock": 0
       }
     ],
     "rating": 3.7,
-    "return_window_days": 15
+    "return_window_days": 10
   },
   {
-    "product_id": "PROD1008",
-    "name": "Sandals",
-    "category": "Footwear",
-    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 3399.0,
+    "product_id": "PROD1007",
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "description": "Bluetooth Speaker with premium build quality and excellent features.",
+    "base_price": 7529.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1008-6-WHI",
-        "size": "6",
-        "color": "White",
-        "price": 3499.0,
+        "sku": "PROD1007-BLU",
+        "color": "Blue",
+        "price": 7429.0,
         "stock": 0
       },
       {
-        "sku": "PROD1008-8-BLA",
-        "size": "8",
+        "sku": "PROD1007-WHI",
+        "color": "White",
+        "price": 7529.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1007-BLA",
         "color": "Black",
-        "price": 3499.0,
-        "stock": 50
+        "price": 7529.0,
+        "stock": 0
+      }
+    ],
+    "rating": 3.8,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1008",
+    "name": "Hoodie",
+    "category": "Apparel",
+    "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3019.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1008-M-NAV",
+        "size": "M",
+        "color": "Navy",
+        "price": 3019.0,
+        "stock": 5
       },
       {
-        "sku": "PROD1008-9-WHI",
-        "size": "9",
+        "sku": "PROD1008-L-OLI",
+        "size": "L",
+        "color": "Olive",
+        "price": 2969.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1008-S-WHI",
+        "size": "S",
         "color": "White",
-        "price": 3399.0,
-        "stock": 12
+        "price": 3019.0,
+        "stock": 0
       },
       {
-        "sku": "PROD1008-8-WHI",
-        "size": "8",
-        "color": "White",
-        "price": 3499.0,
-        "stock": 30
+        "sku": "PROD1008-L-MAR",
+        "size": "L",
+        "color": "Maroon",
+        "price": 3019.0,
+        "stock": 5
       },
       {
-        "sku": "PROD1008-10-GRE",
-        "size": "10",
-        "color": "Grey",
-        "price": 3399.0,
+        "sku": "PROD1008-XL-BLA",
+        "size": "XL",
+        "color": "Black",
+        "price": 3019.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1008-L-BLA",
+        "size": "L",
+        "color": "Black",
+        "price": 3119.0,
         "stock": 12
       }
     ],
-    "rating": 4.6,
+    "rating": 3.6,
     "return_window_days": 7
   },
   {
     "product_id": "PROD1009",
-    "name": "Hoodie",
-    "category": "Apparel",
-    "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2749.0,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 5749.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1009-S-WHI",
-        "size": "S",
-        "color": "White",
-        "price": 2749.0,
+        "sku": "PROD1009-10-BLA",
+        "size": "10",
+        "color": "Black",
+        "price": 5699.0,
         "stock": 5
       },
       {
-        "sku": "PROD1009-XL-OLI",
-        "size": "XL",
-        "color": "Olive",
-        "price": 2749.0,
+        "sku": "PROD1009-7-GRE",
+        "size": "7",
+        "color": "Grey",
+        "price": 5699.0,
         "stock": 2
       },
       {
-        "sku": "PROD1009-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 2749.0,
+        "sku": "PROD1009-10-WHI",
+        "size": "10",
+        "color": "White",
+        "price": 5749.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1009-9-GRE",
+        "size": "9",
+        "color": "Grey",
+        "price": 5749.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1009-9-WHI",
+        "size": "9",
+        "color": "White",
+        "price": 5849.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1009-8-WHI",
+        "size": "8",
+        "color": "White",
+        "price": 5849.0,
         "stock": 5
       }
     ],
-    "rating": 4.4,
-    "return_window_days": 15
+    "rating": 4.7,
+    "return_window_days": 7
   },
   {
     "product_id": "PROD1010",
+    "name": "Denim Jacket",
+    "category": "Apparel",
+    "description": "Denim Jacket - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3369.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1010-XL-BLA",
+        "size": "XL",
+        "color": "Black",
+        "price": 3369.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1010-XL-MAR",
+        "size": "XL",
+        "color": "Maroon",
+        "price": 3319.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1010-S-OLI",
+        "size": "S",
+        "color": "Olive",
+        "price": 3369.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1010-M-WHI",
+        "size": "M",
+        "color": "White",
+        "price": 3319.0,
+        "stock": 2
+      }
+    ],
+    "rating": 4.5,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1011",
+    "name": "Power Bank",
+    "category": "Electronics",
+    "description": "Power Bank with premium build quality and excellent features.",
+    "base_price": 2929.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1011-WHI",
+        "color": "White",
+        "price": 2929.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1011-BLU",
+        "color": "Blue",
+        "price": 2929.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1011-BLA",
+        "color": "Black",
+        "price": 2829.0,
+        "stock": 0
+      }
+    ],
+    "rating": 4.0,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1012",
     "name": "Hoodie",
     "category": "Apparel",
     "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
@@ -372,21 +398,21 @@
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1010-M-OLI",
+        "sku": "PROD1012-M-OLI",
         "size": "M",
         "color": "Olive",
         "price": 3249.0,
         "stock": 12
       },
       {
-        "sku": "PROD1010-L-OLI",
+        "sku": "PROD1012-L-OLI",
         "size": "L",
         "color": "Olive",
         "price": 3199.0,
         "stock": 50
       },
       {
-        "sku": "PROD1010-S-MAR",
+        "sku": "PROD1012-S-MAR",
         "size": "S",
         "color": "Maroon",
         "price": 3249.0,
@@ -397,23 +423,23 @@
     "return_window_days": 10
   },
   {
-    "product_id": "PROD1011",
-    "name": "Smart Watch",
+    "product_id": "PROD1013",
+    "name": "Bluetooth Speaker",
     "category": "Electronics",
-    "description": "Smart Watch with premium build quality and long battery life.",
-    "base_price": 2089.0,
+    "description": "Bluetooth Speaker with premium build quality and excellent features.",
+    "base_price": 5309.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1011-BLA",
+        "sku": "PROD1013-BLA",
         "color": "Black",
-        "price": 2089.0,
+        "price": 5309.0,
         "stock": 25
       },
       {
-        "sku": "PROD1011-BLU",
+        "sku": "PROD1013-BLU",
         "color": "Blue",
-        "price": 2089.0,
+        "price": 5309.0,
         "stock": 10
       }
     ],
@@ -421,171 +447,180 @@
     "return_window_days": 7
   },
   {
-    "product_id": "PROD1012",
-    "name": "Cotton T-Shirt",
-    "category": "Apparel",
-    "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1339.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1012-S-OLI",
-        "size": "S",
-        "color": "Olive",
-        "price": 1339.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1012-L-WHI",
-        "size": "L",
-        "color": "White",
-        "price": 1339.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1012-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 1339.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1012-XL-OLI",
-        "size": "XL",
-        "color": "Olive",
-        "price": 1339.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1012-S-WHI",
-        "size": "S",
-        "color": "White",
-        "price": 1339.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1012-S-MAR",
-        "size": "S",
-        "color": "Maroon",
-        "price": 1339.0,
-        "stock": 2
-      }
-    ],
-    "rating": 4.5,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1013",
-    "name": "Power Bank",
-    "category": "Electronics",
-    "description": "Power Bank with premium build quality and long battery life.",
-    "base_price": 7239.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1013-BLU",
-        "color": "Blue",
-        "price": 7239.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1013-BLA",
-        "color": "Black",
-        "price": 7439.0,
-        "stock": 0
-      }
-    ],
-    "rating": 4.6,
-    "return_window_days": 15
-  },
-  {
     "product_id": "PROD1014",
     "name": "Running Shoes",
     "category": "Footwear",
     "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 4809.0,
+    "base_price": 2269.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1014-10-WHI",
-        "size": "10",
-        "color": "White",
-        "price": 4809.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1014-6-BLA",
-        "size": "6",
-        "color": "Black",
-        "price": 4759.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1014-8-BLA",
-        "size": "8",
-        "color": "Black",
-        "price": 4759.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1014-7-WHI",
-        "size": "7",
-        "color": "White",
-        "price": 4759.0,
-        "stock": 5
+        "sku": "PROD1014-9-GRE",
+        "size": "9",
+        "color": "Grey",
+        "price": 2269.0,
+        "stock": 12
       },
       {
         "sku": "PROD1014-10-BLA",
         "size": "10",
         "color": "Black",
-        "price": 4909.0,
+        "price": 2269.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1014-9-WHI",
+        "size": "9",
+        "color": "White",
+        "price": 2219.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1014-6-GRE",
+        "size": "6",
+        "color": "Grey",
+        "price": 2269.0,
+        "stock": 12
+      }
+    ],
+    "rating": 3.5,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1015",
+    "name": "Sneakers",
+    "category": "Footwear",
+    "description": "Sneakers - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3379.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1015-10-WHI",
+        "size": "10",
+        "color": "White",
+        "price": 3379.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1015-6-GRE",
+        "size": "6",
+        "color": "Grey",
+        "price": 3379.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1015-7-BLA",
+        "size": "7",
+        "color": "Black",
+        "price": 3329.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1015-9-WHI",
+        "size": "9",
+        "color": "White",
+        "price": 3379.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1015-7-WHI",
+        "size": "7",
+        "color": "White",
+        "price": 3379.0,
+        "stock": 5
+      }
+    ],
+    "rating": 4.0,
+    "return_window_days": 15
+  },
+  {
+    "product_id": "PROD1016",
+    "name": "Sandals",
+    "category": "Footwear",
+    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3269.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1016-6-GRE",
+        "size": "6",
+        "color": "Grey",
+        "price": 3369.0,
         "stock": 0
+      },
+      {
+        "sku": "PROD1016-9-BLA",
+        "size": "9",
+        "color": "Black",
+        "price": 3269.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1016-6-BLA",
+        "size": "6",
+        "color": "Black",
+        "price": 3269.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1016-7-GRE",
+        "size": "7",
+        "color": "Grey",
+        "price": 3369.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1016-6-WHI",
+        "size": "6",
+        "color": "White",
+        "price": 3269.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1016-10-WHI",
+        "size": "10",
+        "color": "White",
+        "price": 3269.0,
+        "stock": 30
       }
     ],
     "rating": 4.4,
     "return_window_days": 10
   },
   {
-    "product_id": "PROD1015",
-    "name": "Denim Jacket",
-    "category": "Apparel",
-    "description": "Denim Jacket - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2549.0,
+    "product_id": "PROD1017",
+    "name": "Sandals",
+    "category": "Footwear",
+    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 5419.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1015-S-BLA",
-        "size": "S",
+        "sku": "PROD1017-6-BLA",
+        "size": "6",
         "color": "Black",
-        "price": 2499.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1015-XL-WHI",
-        "size": "XL",
-        "color": "White",
-        "price": 2649.0,
+        "price": 5519.0,
         "stock": 2
       },
       {
-        "sku": "PROD1015-XL-BLA",
-        "size": "XL",
-        "color": "Black",
-        "price": 2549.0,
+        "sku": "PROD1017-8-GRE",
+        "size": "8",
+        "color": "Grey",
+        "price": 5419.0,
         "stock": 30
       },
       {
-        "sku": "PROD1015-XL-NAV",
-        "size": "XL",
-        "color": "Navy",
-        "price": 2649.0,
+        "sku": "PROD1017-9-WHI",
+        "size": "9",
+        "color": "White",
+        "price": 5519.0,
         "stock": 0
       },
       {
-        "sku": "PROD1015-M-MAR",
-        "size": "M",
-        "color": "Maroon",
-        "price": 2649.0,
+        "sku": "PROD1017-7-WHI",
+        "size": "7",
+        "color": "White",
+        "price": 5519.0,
         "stock": 12
       }
     ],
@@ -593,7 +628,7 @@
     "return_window_days": 15
   },
   {
-    "product_id": "PROD1016",
+    "product_id": "PROD1018",
     "name": "Hoodie",
     "category": "Apparel",
     "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
@@ -601,42 +636,42 @@
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1016-M-NAV",
+        "sku": "PROD1018-M-NAV",
         "size": "M",
         "color": "Navy",
         "price": 1569.0,
         "stock": 12
       },
       {
-        "sku": "PROD1016-M-OLI",
+        "sku": "PROD1018-M-OLI",
         "size": "M",
         "color": "Olive",
         "price": 1519.0,
         "stock": 30
       },
       {
-        "sku": "PROD1016-L-OLI",
+        "sku": "PROD1018-L-OLI",
         "size": "L",
         "color": "Olive",
         "price": 1669.0,
         "stock": 0
       },
       {
-        "sku": "PROD1016-M-BLA",
+        "sku": "PROD1018-M-BLA",
         "size": "M",
         "color": "Black",
         "price": 1669.0,
         "stock": 0
       },
       {
-        "sku": "PROD1016-XL-NAV",
+        "sku": "PROD1018-XL-NAV",
         "size": "XL",
         "color": "Navy",
         "price": 1569.0,
         "stock": 5
       },
       {
-        "sku": "PROD1016-L-BLA",
+        "sku": "PROD1018-L-BLA",
         "size": "L",
         "color": "Black",
         "price": 1569.0,
@@ -647,7 +682,7 @@
     "return_window_days": 15
   },
   {
-    "product_id": "PROD1017",
+    "product_id": "PROD1019",
     "name": "Formal Shirt",
     "category": "Apparel",
     "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
@@ -655,21 +690,21 @@
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1017-L-NAV",
+        "sku": "PROD1019-L-NAV",
         "size": "L",
         "color": "Navy",
         "price": 849.0,
         "stock": 0
       },
       {
-        "sku": "PROD1017-L-WHI",
+        "sku": "PROD1019-L-WHI",
         "size": "L",
         "color": "White",
         "price": 949.0,
         "stock": 30
       },
       {
-        "sku": "PROD1017-XL-WHI",
+        "sku": "PROD1019-XL-WHI",
         "size": "XL",
         "color": "White",
         "price": 949.0,
@@ -680,174 +715,84 @@
     "return_window_days": 10
   },
   {
-    "product_id": "PROD1018",
-    "name": "Sneakers",
-    "category": "Footwear",
-    "description": "Sneakers - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2359.0,
+    "product_id": "PROD1020",
+    "name": "Table Lamp",
+    "category": "Home & Kitchen",
+    "description": "Table Lamp with premium build quality and excellent features.",
+    "base_price": 2799.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1018-6-GRE",
-        "size": "6",
+        "sku": "PROD1020-GRE",
         "color": "Grey",
-        "price": 2309.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1018-8-BLA",
-        "size": "8",
-        "color": "Black",
-        "price": 2459.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1018-9-BLA",
-        "size": "9",
-        "color": "Black",
-        "price": 2359.0,
+        "price": 2799.0,
         "stock": 0
       },
       {
-        "sku": "PROD1018-7-GRE",
-        "size": "7",
-        "color": "Grey",
-        "price": 2459.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1018-6-WHI",
-        "size": "6",
+        "sku": "PROD1020-WHI",
         "color": "White",
-        "price": 2359.0,
-        "stock": 5
+        "price": 2799.0,
+        "stock": 25
       },
       {
-        "sku": "PROD1018-8-WHI",
-        "size": "8",
-        "color": "White",
-        "price": 2459.0,
-        "stock": 0
+        "sku": "PROD1020-BLA",
+        "color": "Black",
+        "price": 2799.0,
+        "stock": 25
       }
     ],
-    "rating": 4.7,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1019",
-    "name": "Kurta",
-    "category": "Apparel",
-    "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2759.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1019-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 2859.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1019-XL-BLA",
-        "size": "XL",
-        "color": "Black",
-        "price": 2859.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1019-XL-NAV",
-        "size": "XL",
-        "color": "Navy",
-        "price": 2859.0,
-        "stock": 0
-      }
-    ],
-    "rating": 3.5,
+    "rating": 4.2,
     "return_window_days": 10
   },
   {
-    "product_id": "PROD1020",
-    "name": "Formal Shirt",
-    "category": "Apparel",
-    "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1139.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1020-M-NAV",
-        "size": "M",
-        "color": "Navy",
-        "price": 1139.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1020-M-BLA",
-        "size": "M",
-        "color": "Black",
-        "price": 1239.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1020-XL-NAV",
-        "size": "XL",
-        "color": "Navy",
-        "price": 1139.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1020-L-WHI",
-        "size": "L",
-        "color": "White",
-        "price": 1139.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1020-L-OLI",
-        "size": "L",
-        "color": "Olive",
-        "price": 1089.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1020-M-MAR",
-        "size": "M",
-        "color": "Maroon",
-        "price": 1239.0,
-        "stock": 30
-      }
-    ],
-    "rating": 4.9,
-    "return_window_days": 7
-  },
-  {
     "product_id": "PROD1021",
-    "name": "Sneakers",
-    "category": "Footwear",
-    "description": "Sneakers - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1229.0,
+    "name": "Kurta",
+    "category": "Apparel",
+    "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 2979.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1021-7-BLA",
-        "size": "7",
+        "sku": "PROD1021-L-BLA",
+        "size": "L",
         "color": "Black",
-        "price": 1229.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1021-9-BLA",
-        "size": "9",
-        "color": "Black",
-        "price": 1329.0,
+        "price": 2979.0,
         "stock": 0
       },
       {
-        "sku": "PROD1021-8-WHI",
-        "size": "8",
-        "color": "White",
-        "price": 1179.0,
+        "sku": "PROD1021-M-NAV",
+        "size": "M",
+        "color": "Navy",
+        "price": 2979.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1021-XL-OLI",
+        "size": "XL",
+        "color": "Olive",
+        "price": 2929.0,
         "stock": 50
+      },
+      {
+        "sku": "PROD1021-S-MAR",
+        "size": "S",
+        "color": "Maroon",
+        "price": 3079.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1021-M-OLI",
+        "size": "M",
+        "color": "Olive",
+        "price": 2979.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1021-S-WHI",
+        "size": "S",
+        "color": "White",
+        "price": 3079.0,
+        "stock": 0
       }
     ],
     "rating": 4.1,
@@ -855,398 +800,490 @@
   },
   {
     "product_id": "PROD1022",
-    "name": "Wireless Earbuds",
+    "name": "Power Bank",
     "category": "Electronics",
-    "description": "Wireless Earbuds with premium build quality and long battery life.",
-    "base_price": 5939.0,
+    "description": "Power Bank with premium build quality and excellent features.",
+    "base_price": 839.0,
     "currency": "INR",
     "variants": [
       {
         "sku": "PROD1022-WHI",
         "color": "White",
-        "price": 5939.0,
-        "stock": 10
+        "price": 839.0,
+        "stock": 3
       },
       {
         "sku": "PROD1022-BLU",
         "color": "Blue",
-        "price": 5939.0,
-        "stock": 25
+        "price": 839.0,
+        "stock": 3
+      },
+      {
+        "sku": "PROD1022-BLA",
+        "color": "Black",
+        "price": 839.0,
+        "stock": 0
       }
     ],
-    "rating": 4.8,
+    "rating": 4.0,
     "return_window_days": 7
   },
   {
     "product_id": "PROD1023",
-    "name": "Wireless Earbuds",
-    "category": "Electronics",
-    "description": "Wireless Earbuds with premium build quality and long battery life.",
-    "base_price": 6919.0,
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "description": "Non-stick Pan with premium build quality and excellent features.",
+    "base_price": 2169.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1023-WHI",
-        "color": "White",
-        "price": 6919.0,
+        "sku": "PROD1023-BLA",
+        "color": "Black",
+        "price": 2169.0,
         "stock": 0
       },
       {
-        "sku": "PROD1023-BLA",
-        "color": "Black",
-        "price": 6919.0,
-        "stock": 10
-      },
-      {
-        "sku": "PROD1023-BLU",
-        "color": "Blue",
-        "price": 6819.0,
-        "stock": 10
+        "sku": "PROD1023-GRE",
+        "color": "Grey",
+        "price": 2369.0,
+        "stock": 0
       }
     ],
-    "rating": 3.6,
+    "rating": 3.7,
     "return_window_days": 15
   },
   {
     "product_id": "PROD1024",
-    "name": "Running Shoes",
-    "category": "Footwear",
-    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 4089.0,
+    "name": "Hoodie",
+    "category": "Apparel",
+    "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 669.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1024-10-GRE",
-        "size": "10",
-        "color": "Grey",
-        "price": 4189.0,
-        "stock": 30
+        "sku": "PROD1024-L-MAR",
+        "size": "L",
+        "color": "Maroon",
+        "price": 669.0,
+        "stock": 50
       },
       {
-        "sku": "PROD1024-10-WHI",
-        "size": "10",
+        "sku": "PROD1024-S-OLI",
+        "size": "S",
+        "color": "Olive",
+        "price": 669.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1024-S-BLA",
+        "size": "S",
+        "color": "Black",
+        "price": 669.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1024-S-WHI",
+        "size": "S",
         "color": "White",
-        "price": 4089.0,
+        "price": 669.0,
         "stock": 30
-      },
-      {
-        "sku": "PROD1024-9-GRE",
-        "size": "9",
-        "color": "Grey",
-        "price": 4089.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1024-6-BLA",
-        "size": "6",
-        "color": "Black",
-        "price": 4039.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1024-10-BLA",
-        "size": "10",
-        "color": "Black",
-        "price": 4189.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1024-8-BLA",
-        "size": "8",
-        "color": "Black",
-        "price": 4039.0,
-        "stock": 5
       }
     ],
-    "rating": 4.6,
-    "return_window_days": 15
+    "rating": 4.0,
+    "return_window_days": 7
   },
   {
     "product_id": "PROD1025",
-    "name": "Formal Shirt",
-    "category": "Apparel",
-    "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 3449.0,
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "description": "Non-stick Pan with premium build quality and excellent features.",
+    "base_price": 2379.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1025-XL-WHI",
-        "size": "XL",
-        "color": "White",
-        "price": 3449.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1025-M-BLA",
-        "size": "M",
+        "sku": "PROD1025-BLA",
         "color": "Black",
-        "price": 3549.0,
+        "price": 2579.0,
         "stock": 0
       },
       {
-        "sku": "PROD1025-L-BLA",
-        "size": "L",
-        "color": "Black",
-        "price": 3399.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1025-XL-MAR",
-        "size": "XL",
-        "color": "Maroon",
-        "price": 3399.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1025-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 3449.0,
+        "sku": "PROD1025-BLU",
+        "color": "Blue",
+        "price": 2279.0,
         "stock": 0
       }
     ],
-    "rating": 4.8,
+    "rating": 4.5,
     "return_window_days": 15
   },
   {
     "product_id": "PROD1026",
-    "name": "Formal Shoes",
-    "category": "Footwear",
-    "description": "Formal Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2519.0,
+    "name": "Kurta",
+    "category": "Apparel",
+    "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 2129.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1026-9-BLA",
-        "size": "9",
-        "color": "Black",
-        "price": 2619.0,
+        "sku": "PROD1026-S-WHI",
+        "size": "S",
+        "color": "White",
+        "price": 2129.0,
         "stock": 2
       },
       {
-        "sku": "PROD1026-8-GRE",
-        "size": "8",
-        "color": "Grey",
-        "price": 2519.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1026-7-WHI",
-        "size": "7",
-        "color": "White",
-        "price": 2469.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1026-8-WHI",
-        "size": "8",
-        "color": "White",
-        "price": 2519.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1026-7-BLA",
-        "size": "7",
+        "sku": "PROD1026-M-BLA",
+        "size": "M",
         "color": "Black",
-        "price": 2469.0,
-        "stock": 50
+        "price": 2229.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1026-S-MAR",
+        "size": "S",
+        "color": "Maroon",
+        "price": 2229.0,
+        "stock": 12
       }
     ],
-    "rating": 3.9,
+    "rating": 4.3,
     "return_window_days": 7
   },
   {
     "product_id": "PROD1027",
-    "name": "Running Shoes",
-    "category": "Footwear",
-    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1269.0,
+    "name": "Ceramic Mug Set",
+    "category": "Home & Kitchen",
+    "description": "Ceramic Mug Set with premium build quality and excellent features.",
+    "base_price": 2109.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1027-9-BLA",
-        "size": "9",
+        "sku": "PROD1027-BLA",
         "color": "Black",
-        "price": 1269.0,
-        "stock": 0
+        "price": 2009.0,
+        "stock": 3
       },
       {
-        "sku": "PROD1027-8-GRE",
-        "size": "8",
+        "sku": "PROD1027-GRE",
         "color": "Grey",
-        "price": 1219.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1027-8-WHI",
-        "size": "8",
-        "color": "White",
-        "price": 1269.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1027-6-BLA",
-        "size": "6",
-        "color": "Black",
-        "price": 1369.0,
-        "stock": 5
-      }
-    ],
-    "rating": 3.6,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1028",
-    "name": "Denim Jacket",
-    "category": "Apparel",
-    "description": "Denim Jacket - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1979.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1028-S-NAV",
-        "size": "S",
-        "color": "Navy",
-        "price": 1929.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1028-L-WHI",
-        "size": "L",
-        "color": "White",
-        "price": 1929.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1028-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 1979.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1028-S-BLA",
-        "size": "S",
-        "color": "Black",
-        "price": 1979.0,
-        "stock": 0
-      }
-    ],
-    "rating": 3.6,
-    "return_window_days": 10
-  },
-  {
-    "product_id": "PROD1029",
-    "name": "Wireless Earbuds",
-    "category": "Electronics",
-    "description": "Wireless Earbuds with premium build quality and long battery life.",
-    "base_price": 3429.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1029-WHI",
-        "color": "White",
-        "price": 3329.0,
+        "price": 2309.0,
         "stock": 10
-      },
-      {
-        "sku": "PROD1029-BLA",
-        "color": "Black",
-        "price": 3329.0,
-        "stock": 25
-      },
-      {
-        "sku": "PROD1029-BLU",
-        "color": "Blue",
-        "price": 3429.0,
-        "stock": 10
-      }
-    ],
-    "rating": 3.9,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1030",
-    "name": "Sandals",
-    "category": "Footwear",
-    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 3879.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1030-6-BLA",
-        "size": "6",
-        "color": "Black",
-        "price": 3879.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1030-10-WHI",
-        "size": "10",
-        "color": "White",
-        "price": 3829.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1030-8-BLA",
-        "size": "8",
-        "color": "Black",
-        "price": 3829.0,
-        "stock": 12
       }
     ],
     "rating": 4.2,
     "return_window_days": 7
   },
   {
-    "product_id": "PROD1031",
-    "name": "Formal Shoes",
+    "product_id": "PROD1028",
+    "name": "Sandals",
     "category": "Footwear",
-    "description": "Formal Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 5869.0,
+    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 5899.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1031-8-WHI",
+        "sku": "PROD1028-7-GRE",
+        "size": "7",
+        "color": "Grey",
+        "price": 5999.0,
+        "stock": 2
+      },
+      {
+        "sku": "PROD1028-8-BLA",
         "size": "8",
-        "color": "White",
-        "price": 5869.0,
+        "color": "Black",
+        "price": 5899.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1028-10-BLA",
+        "size": "10",
+        "color": "Black",
+        "price": 5999.0,
         "stock": 0
       },
       {
-        "sku": "PROD1031-7-WHI",
-        "size": "7",
-        "color": "White",
-        "price": 5869.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1031-9-BLA",
+        "sku": "PROD1028-9-GRE",
         "size": "9",
-        "color": "Black",
-        "price": 5969.0,
+        "color": "Grey",
+        "price": 5999.0,
         "stock": 0
       }
     ],
-    "rating": 4.4,
+    "rating": 4.2,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1029",
+    "name": "Ceramic Mug Set",
+    "category": "Home & Kitchen",
+    "description": "Ceramic Mug Set with premium build quality and excellent features.",
+    "base_price": 899.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1029-BLU",
+        "color": "Blue",
+        "price": 899.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1029-BLA",
+        "color": "Black",
+        "price": 1099.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1029-GRE",
+        "color": "Grey",
+        "price": 1099.0,
+        "stock": 0
+      }
+    ],
+    "rating": 4.7,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1030",
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "description": "Smart Watch with premium build quality and excellent features.",
+    "base_price": 7689.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1030-BLA",
+        "color": "Black",
+        "price": 7889.0,
+        "stock": 3
+      },
+      {
+        "sku": "PROD1030-BLU",
+        "color": "Blue",
+        "price": 7889.0,
+        "stock": 0
+      }
+    ],
+    "rating": 4.1,
     "return_window_days": 15
   },
   {
+    "product_id": "PROD1031",
+    "name": "Formal Shirt",
+    "category": "Apparel",
+    "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3289.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1031-M-MAR",
+        "size": "M",
+        "color": "Maroon",
+        "price": 3289.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1031-S-BLA",
+        "size": "S",
+        "color": "Black",
+        "price": 3289.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1031-M-NAV",
+        "size": "M",
+        "color": "Navy",
+        "price": 3239.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1031-M-BLA",
+        "size": "M",
+        "color": "Black",
+        "price": 3289.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1031-XL-BLA",
+        "size": "XL",
+        "color": "Black",
+        "price": 3389.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1031-L-WHI",
+        "size": "L",
+        "color": "White",
+        "price": 3289.0,
+        "stock": 12
+      }
+    ],
+    "rating": 3.7,
+    "return_window_days": 10
+  },
+  {
     "product_id": "PROD1032",
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "description": "Non-stick Pan with premium build quality and excellent features.",
+    "base_price": 1349.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1032-GRE",
+        "color": "Grey",
+        "price": 1549.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1032-BLA",
+        "color": "Black",
+        "price": 1249.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1032-WHI",
+        "color": "White",
+        "price": 1349.0,
+        "stock": 0
+      }
+    ],
+    "rating": 3.6,
+    "return_window_days": 15
+  },
+  {
+    "product_id": "PROD1033",
+    "name": "Table Lamp",
+    "category": "Home & Kitchen",
+    "description": "Table Lamp with premium build quality and excellent features.",
+    "base_price": 1119.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1033-BLU",
+        "color": "Blue",
+        "price": 1119.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1033-BLA",
+        "color": "Black",
+        "price": 1119.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1033-WHI",
+        "color": "White",
+        "price": 1319.0,
+        "stock": 25
+      }
+    ],
+    "rating": 3.6,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1034",
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "description": "Smart Watch with premium build quality and excellent features.",
+    "base_price": 7449.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1034-BLA",
+        "color": "Black",
+        "price": 7349.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1034-WHI",
+        "color": "White",
+        "price": 7449.0,
+        "stock": 10
+      }
+    ],
+    "rating": 3.9,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1035",
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "description": "Non-stick Pan with premium build quality and excellent features.",
+    "base_price": 2429.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1035-BLA",
+        "color": "Black",
+        "price": 2429.0,
+        "stock": 3
+      },
+      {
+        "sku": "PROD1035-GRE",
+        "color": "Grey",
+        "price": 2429.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1035-WHI",
+        "color": "White",
+        "price": 2329.0,
+        "stock": 10
+      }
+    ],
+    "rating": 4.1,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1036",
+    "name": "Denim Jacket",
+    "category": "Apparel",
+    "description": "Denim Jacket - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 699.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1036-L-BLA",
+        "size": "L",
+        "color": "Black",
+        "price": 699.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1036-M-BLA",
+        "size": "M",
+        "color": "Black",
+        "price": 699.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1036-XL-NAV",
+        "size": "XL",
+        "color": "Navy",
+        "price": 699.0,
+        "stock": 30
+      }
+    ],
+    "rating": 4.5,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1037",
     "name": "Power Bank",
     "category": "Electronics",
-    "description": "Power Bank with premium build quality and long battery life.",
+    "description": "Power Bank with premium build quality and excellent features.",
     "base_price": 6539.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1032-BLA",
+        "sku": "PROD1037-BLA",
         "color": "Black",
         "price": 6739.0,
         "stock": 25
       },
       {
-        "sku": "PROD1032-BLU",
+        "sku": "PROD1037-BLU",
         "color": "Blue",
         "price": 6539.0,
         "stock": 10
@@ -1256,7 +1293,7 @@
     "return_window_days": 15
   },
   {
-    "product_id": "PROD1033",
+    "product_id": "PROD1038",
     "name": "Cotton T-Shirt",
     "category": "Apparel",
     "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
@@ -1264,28 +1301,28 @@
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1033-S-NAV",
+        "sku": "PROD1038-S-NAV",
         "size": "S",
         "color": "Navy",
         "price": 2119.0,
         "stock": 2
       },
       {
-        "sku": "PROD1033-M-BLA",
+        "sku": "PROD1038-M-BLA",
         "size": "M",
         "color": "Black",
         "price": 2169.0,
         "stock": 5
       },
       {
-        "sku": "PROD1033-M-MAR",
+        "sku": "PROD1038-M-MAR",
         "size": "M",
         "color": "Maroon",
         "price": 2169.0,
         "stock": 30
       },
       {
-        "sku": "PROD1033-L-NAV",
+        "sku": "PROD1038-L-NAV",
         "size": "L",
         "color": "Navy",
         "price": 2269.0,
@@ -1296,265 +1333,30 @@
     "return_window_days": 15
   },
   {
-    "product_id": "PROD1034",
-    "name": "Sneakers",
-    "category": "Footwear",
-    "description": "Sneakers - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1039.0,
+    "product_id": "PROD1039",
+    "name": "Ceramic Mug Set",
+    "category": "Home & Kitchen",
+    "description": "Ceramic Mug Set with premium build quality and excellent features.",
+    "base_price": 329.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1034-6-GRE",
-        "size": "6",
-        "color": "Grey",
-        "price": 1039.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1034-9-BLA",
-        "size": "9",
-        "color": "Black",
-        "price": 989.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1034-6-BLA",
-        "size": "6",
-        "color": "Black",
-        "price": 1039.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1034-10-BLA",
-        "size": "10",
-        "color": "Black",
-        "price": 989.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1034-7-GRE",
-        "size": "7",
-        "color": "Grey",
-        "price": 1039.0,
-        "stock": 12
-      }
-    ],
-    "rating": 3.7,
-    "return_window_days": 10
-  },
-  {
-    "product_id": "PROD1035",
-    "name": "Denim Jacket",
-    "category": "Apparel",
-    "description": "Denim Jacket - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 679.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1035-XL-NAV",
-        "size": "XL",
-        "color": "Navy",
-        "price": 779.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1035-XL-OLI",
-        "size": "XL",
-        "color": "Olive",
-        "price": 629.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1035-S-BLA",
-        "size": "S",
-        "color": "Black",
-        "price": 679.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1035-S-OLI",
-        "size": "S",
-        "color": "Olive",
-        "price": 679.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1035-L-BLA",
-        "size": "L",
-        "color": "Black",
-        "price": 679.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1035-M-OLI",
-        "size": "M",
-        "color": "Olive",
-        "price": 629.0,
-        "stock": 0
-      }
-    ],
-    "rating": 4.3,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1036",
-    "name": "Sandals",
-    "category": "Footwear",
-    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 4849.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1036-9-BLA",
-        "size": "9",
-        "color": "Black",
-        "price": 4849.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1036-9-GRE",
-        "size": "9",
-        "color": "Grey",
-        "price": 4799.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1036-7-GRE",
-        "size": "7",
-        "color": "Grey",
-        "price": 4799.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1036-9-WHI",
-        "size": "9",
+        "sku": "PROD1039-WHI",
         "color": "White",
-        "price": 4799.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1036-8-GRE",
-        "size": "8",
-        "color": "Grey",
-        "price": 4799.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1036-10-GRE",
-        "size": "10",
-        "color": "Grey",
-        "price": 4849.0,
-        "stock": 2
-      }
-    ],
-    "rating": 3.8,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1037",
-    "name": "Smart Watch",
-    "category": "Electronics",
-    "description": "Smart Watch with premium build quality and long battery life.",
-    "base_price": 3789.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1037-BLU",
-        "color": "Blue",
-        "price": 3989.0,
+        "price": 329.0,
         "stock": 3
       },
       {
-        "sku": "PROD1037-BLA",
-        "color": "Black",
-        "price": 3989.0,
+        "sku": "PROD1039-BLU",
+        "color": "Blue",
+        "price": 329.0,
         "stock": 0
       },
       {
-        "sku": "PROD1037-WHI",
-        "color": "White",
-        "price": 3789.0,
+        "sku": "PROD1039-BLA",
+        "color": "Black",
+        "price": 229.0,
         "stock": 0
-      }
-    ],
-    "rating": 4.7,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1038",
-    "name": "Formal Shoes",
-    "category": "Footwear",
-    "description": "Formal Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 5779.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1038-7-BLA",
-        "size": "7",
-        "color": "Black",
-        "price": 5879.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1038-9-GRE",
-        "size": "9",
-        "color": "Grey",
-        "price": 5879.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1038-10-WHI",
-        "size": "10",
-        "color": "White",
-        "price": 5779.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1038-6-WHI",
-        "size": "6",
-        "color": "White",
-        "price": 5779.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1038-8-GRE",
-        "size": "8",
-        "color": "Grey",
-        "price": 5779.0,
-        "stock": 0
-      }
-    ],
-    "rating": 4.1,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1039",
-    "name": "Hoodie",
-    "category": "Apparel",
-    "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2209.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1039-XL-BLA",
-        "size": "XL",
-        "color": "Black",
-        "price": 2309.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1039-S-BLA",
-        "size": "S",
-        "color": "Black",
-        "price": 2309.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1039-L-MAR",
-        "size": "L",
-        "color": "Maroon",
-        "price": 2309.0,
-        "stock": 2
       }
     ],
     "rating": 3.9,
@@ -1562,230 +1364,157 @@
   },
   {
     "product_id": "PROD1040",
-    "name": "Hoodie",
+    "name": "Chinos",
     "category": "Apparel",
-    "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1329.0,
+    "description": "Chinos - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 2049.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1040-L-OLI",
-        "size": "L",
-        "color": "Olive",
-        "price": 1329.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1040-S-NAV",
+        "sku": "PROD1040-S-MAR",
         "size": "S",
-        "color": "Navy",
-        "price": 1279.0,
+        "color": "Maroon",
+        "price": 2049.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1040-M-OLI",
+        "size": "M",
+        "color": "Olive",
+        "price": 2049.0,
         "stock": 2
       },
       {
-        "sku": "PROD1040-L-WHI",
+        "sku": "PROD1040-L-BLA",
         "size": "L",
-        "color": "White",
-        "price": 1329.0,
-        "stock": 2
+        "color": "Black",
+        "price": 2049.0,
+        "stock": 0
       },
       {
-        "sku": "PROD1040-L-NAV",
-        "size": "L",
+        "sku": "PROD1040-XL-NAV",
+        "size": "XL",
         "color": "Navy",
-        "price": 1329.0,
+        "price": 1999.0,
         "stock": 0
       },
       {
         "sku": "PROD1040-XL-OLI",
         "size": "XL",
         "color": "Olive",
-        "price": 1329.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1040-S-BLA",
-        "size": "S",
-        "color": "Black",
-        "price": 1329.0,
-        "stock": 0
+        "price": 2149.0,
+        "stock": 30
       }
     ],
-    "rating": 4.0,
-    "return_window_days": 7
+    "rating": 4.5,
+    "return_window_days": 10
   },
   {
     "product_id": "PROD1041",
-    "name": "Sandals",
-    "category": "Footwear",
-    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 4879.0,
+    "name": "Power Bank",
+    "category": "Electronics",
+    "description": "Power Bank with premium build quality and excellent features.",
+    "base_price": 2199.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1041-8-WHI",
-        "size": "8",
-        "color": "White",
-        "price": 4879.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1041-7-WHI",
-        "size": "7",
-        "color": "White",
-        "price": 4879.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1041-8-BLA",
-        "size": "8",
+        "sku": "PROD1041-BLA",
         "color": "Black",
-        "price": 4879.0,
-        "stock": 50
+        "price": 2199.0,
+        "stock": 3
       },
       {
-        "sku": "PROD1041-10-BLA",
-        "size": "10",
-        "color": "Black",
-        "price": 4979.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1041-8-GRE",
-        "size": "8",
-        "color": "Grey",
-        "price": 4979.0,
+        "sku": "PROD1041-WHI",
+        "color": "White",
+        "price": 2099.0,
         "stock": 0
       }
     ],
-    "rating": 4.4,
+    "rating": 4.3,
     "return_window_days": 7
   },
   {
     "product_id": "PROD1042",
-    "name": "Cotton T-Shirt",
-    "category": "Apparel",
-    "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2919.0,
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "description": "Non-stick Pan with premium build quality and excellent features.",
+    "base_price": 3149.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1042-S-BLA",
-        "size": "S",
-        "color": "Black",
-        "price": 2919.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1042-S-MAR",
-        "size": "S",
-        "color": "Maroon",
-        "price": 3019.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1042-M-MAR",
-        "size": "M",
-        "color": "Maroon",
-        "price": 2869.0,
+        "sku": "PROD1042-BLU",
+        "color": "Blue",
+        "price": 3049.0,
         "stock": 0
       },
       {
-        "sku": "PROD1042-XL-WHI",
-        "size": "XL",
+        "sku": "PROD1042-WHI",
         "color": "White",
-        "price": 3019.0,
-        "stock": 30
+        "price": 3349.0,
+        "stock": 25
       },
       {
-        "sku": "PROD1042-M-NAV",
-        "size": "M",
-        "color": "Navy",
-        "price": 2919.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1042-M-BLA",
-        "size": "M",
-        "color": "Black",
-        "price": 2869.0,
+        "sku": "PROD1042-GRE",
+        "color": "Grey",
+        "price": 3049.0,
         "stock": 0
       }
     ],
-    "rating": 4.8,
-    "return_window_days": 10
+    "rating": 4.0,
+    "return_window_days": 15
   },
   {
     "product_id": "PROD1043",
-    "name": "Hoodie",
-    "category": "Apparel",
-    "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 939.0,
+    "name": "Ceramic Mug Set",
+    "category": "Home & Kitchen",
+    "description": "Ceramic Mug Set with premium build quality and excellent features.",
+    "base_price": 2649.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1043-XL-OLI",
-        "size": "XL",
-        "color": "Olive",
-        "price": 939.0,
+        "sku": "PROD1043-BLU",
+        "color": "Blue",
+        "price": 2549.0,
         "stock": 0
       },
       {
-        "sku": "PROD1043-L-BLA",
-        "size": "L",
-        "color": "Black",
-        "price": 939.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1043-S-OLI",
-        "size": "S",
-        "color": "Olive",
-        "price": 889.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1043-M-MAR",
-        "size": "M",
-        "color": "Maroon",
-        "price": 939.0,
-        "stock": 2
+        "sku": "PROD1043-WHI",
+        "color": "White",
+        "price": 2549.0,
+        "stock": 0
       }
     ],
-    "rating": 3.7,
+    "rating": 4.6,
     "return_window_days": 7
   },
   {
     "product_id": "PROD1044",
-    "name": "Sandals",
-    "category": "Footwear",
-    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1279.0,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "description": "Bluetooth Speaker with premium build quality and excellent features.",
+    "base_price": 6939.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1044-8-WHI",
-        "size": "8",
+        "sku": "PROD1044-WHI",
         "color": "White",
-        "price": 1229.0,
-        "stock": 12
+        "price": 6939.0,
+        "stock": 3
       },
       {
-        "sku": "PROD1044-6-BLA",
-        "size": "6",
+        "sku": "PROD1044-BLU",
+        "color": "Blue",
+        "price": 7139.0,
+        "stock": 3
+      },
+      {
+        "sku": "PROD1044-BLA",
         "color": "Black",
-        "price": 1279.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1044-10-WHI",
-        "size": "10",
-        "color": "White",
-        "price": 1379.0,
+        "price": 7139.0,
         "stock": 0
       }
     ],
-    "rating": 3.7,
+    "rating": 4.5,
     "return_window_days": 15
   },
   {
@@ -1793,490 +1522,820 @@
     "name": "Cotton T-Shirt",
     "category": "Apparel",
     "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 3169.0,
+    "base_price": 2999.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1045-S-BLA",
-        "size": "S",
-        "color": "Black",
-        "price": 3169.0,
-        "stock": 0
+        "sku": "PROD1045-XL-OLI",
+        "size": "XL",
+        "color": "Olive",
+        "price": 3099.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1045-M-MAR",
+        "size": "M",
+        "color": "Maroon",
+        "price": 2999.0,
+        "stock": 12
       },
       {
         "sku": "PROD1045-XL-MAR",
         "size": "XL",
         "color": "Maroon",
-        "price": 3119.0,
+        "price": 2999.0,
         "stock": 5
       },
       {
-        "sku": "PROD1045-XL-BLA",
-        "size": "XL",
+        "sku": "PROD1045-L-BLA",
+        "size": "L",
         "color": "Black",
-        "price": 3169.0,
-        "stock": 5
+        "price": 2999.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1045-S-WHI",
+        "size": "S",
+        "color": "White",
+        "price": 2949.0,
+        "stock": 0
       },
       {
         "sku": "PROD1045-M-BLA",
         "size": "M",
         "color": "Black",
-        "price": 3119.0,
-        "stock": 50
+        "price": 2999.0,
+        "stock": 5
       }
     ],
-    "rating": 3.8,
+    "rating": 4.3,
     "return_window_days": 10
   },
   {
     "product_id": "PROD1046",
-    "name": "Running Shoes",
+    "name": "Formal Shoes",
     "category": "Footwear",
-    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1339.0,
+    "description": "Formal Shoes - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 5429.0,
     "currency": "INR",
     "variants": [
-      {
-        "sku": "PROD1046-7-BLA",
-        "size": "7",
-        "color": "Black",
-        "price": 1339.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1046-7-WHI",
-        "size": "7",
-        "color": "White",
-        "price": 1289.0,
-        "stock": 30
-      },
       {
         "sku": "PROD1046-6-GRE",
         "size": "6",
         "color": "Grey",
-        "price": 1339.0,
-        "stock": 0
-      }
-    ],
-    "rating": 4.7,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1047",
-    "name": "Wireless Earbuds",
-    "category": "Electronics",
-    "description": "Wireless Earbuds with premium build quality and long battery life.",
-    "base_price": 2399.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1047-WHI",
-        "color": "White",
-        "price": 2399.0,
-        "stock": 3
+        "price": 5429.0,
+        "stock": 30
       },
       {
-        "sku": "PROD1047-BLA",
+        "sku": "PROD1046-8-GRE",
+        "size": "8",
+        "color": "Grey",
+        "price": 5429.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1046-6-BLA",
+        "size": "6",
         "color": "Black",
-        "price": 2599.0,
-        "stock": 0
+        "price": 5529.0,
+        "stock": 2
       },
       {
-        "sku": "PROD1047-BLU",
-        "color": "Blue",
-        "price": 2599.0,
-        "stock": 25
+        "sku": "PROD1046-10-WHI",
+        "size": "10",
+        "color": "White",
+        "price": 5529.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1046-10-BLA",
+        "size": "10",
+        "color": "Black",
+        "price": 5529.0,
+        "stock": 2
+      },
+      {
+        "sku": "PROD1046-9-WHI",
+        "size": "9",
+        "color": "White",
+        "price": 5529.0,
+        "stock": 30
       }
     ],
     "rating": 3.9,
     "return_window_days": 10
   },
   {
-    "product_id": "PROD1048",
-    "name": "Formal Shirt",
-    "category": "Apparel",
-    "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2069.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1048-M-MAR",
-        "size": "M",
-        "color": "Maroon",
-        "price": 2169.0,
-        "stock": 50
-      },
-      {
-        "sku": "PROD1048-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 2019.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1048-XL-MAR",
-        "size": "XL",
-        "color": "Maroon",
-        "price": 2069.0,
-        "stock": 2
-      }
-    ],
-    "rating": 4.9,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1049",
-    "name": "Sandals",
-    "category": "Footwear",
-    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2329.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1049-9-WHI",
-        "size": "9",
-        "color": "White",
-        "price": 2429.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1049-8-BLA",
-        "size": "8",
-        "color": "Black",
-        "price": 2329.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1049-8-GRE",
-        "size": "8",
-        "color": "Grey",
-        "price": 2329.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1049-10-BLA",
-        "size": "10",
-        "color": "Black",
-        "price": 2329.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1049-6-BLA",
-        "size": "6",
-        "color": "Black",
-        "price": 2279.0,
-        "stock": 5
-      }
-    ],
-    "rating": 4.2,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1050",
-    "name": "Hoodie",
-    "category": "Apparel",
-    "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 1269.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1050-XL-WHI",
-        "size": "XL",
-        "color": "White",
-        "price": 1269.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1050-L-BLA",
-        "size": "L",
-        "color": "Black",
-        "price": 1269.0,
-        "stock": 30
-      },
-      {
-        "sku": "PROD1050-M-MAR",
-        "size": "M",
-        "color": "Maroon",
-        "price": 1269.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1050-S-NAV",
-        "size": "S",
-        "color": "Navy",
-        "price": 1269.0,
-        "stock": 0
-      }
-    ],
-    "rating": 4.4,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1051",
-    "name": "Formal Shoes",
-    "category": "Footwear",
-    "description": "Formal Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 5069.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1051-10-BLA",
-        "size": "10",
-        "color": "Black",
-        "price": 5069.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1051-6-GRE",
-        "size": "6",
-        "color": "Grey",
-        "price": 5069.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1051-7-BLA",
-        "size": "7",
-        "color": "Black",
-        "price": 5069.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1051-7-WHI",
-        "size": "7",
-        "color": "White",
-        "price": 5069.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1051-10-WHI",
-        "size": "10",
-        "color": "White",
-        "price": 5019.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1051-8-BLA",
-        "size": "8",
-        "color": "Black",
-        "price": 5019.0,
-        "stock": 50
-      }
-    ],
-    "rating": 4.4,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1052",
-    "name": "Running Shoes",
-    "category": "Footwear",
-    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2509.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1052-6-WHI",
-        "size": "6",
-        "color": "White",
-        "price": 2609.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1052-6-GRE",
-        "size": "6",
-        "color": "Grey",
-        "price": 2509.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1052-7-WHI",
-        "size": "7",
-        "color": "White",
-        "price": 2609.0,
-        "stock": 30
-      }
-    ],
-    "rating": 4.8,
-    "return_window_days": 10
-  },
-  {
-    "product_id": "PROD1053",
-    "name": "Wireless Earbuds",
-    "category": "Electronics",
-    "description": "Wireless Earbuds with premium build quality and long battery life.",
-    "base_price": 2989.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1053-BLU",
-        "color": "Blue",
-        "price": 2989.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1053-WHI",
-        "color": "White",
-        "price": 2989.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1053-BLA",
-        "color": "Black",
-        "price": 3189.0,
-        "stock": 0
-      }
-    ],
-    "rating": 4.7,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1054",
-    "name": "Kurta",
-    "category": "Apparel",
-    "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 3259.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1054-S-NAV",
-        "size": "S",
-        "color": "Navy",
-        "price": 3259.0,
-        "stock": 5
-      },
-      {
-        "sku": "PROD1054-S-OLI",
-        "size": "S",
-        "color": "Olive",
-        "price": 3259.0,
-        "stock": 12
-      },
-      {
-        "sku": "PROD1054-S-WHI",
-        "size": "S",
-        "color": "White",
-        "price": 3259.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1054-M-BLA",
-        "size": "M",
-        "color": "Black",
-        "price": 3259.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1054-S-BLA",
-        "size": "S",
-        "color": "Black",
-        "price": 3259.0,
-        "stock": 0
-      }
-    ],
-    "rating": 4.4,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1055",
+    "product_id": "PROD1047",
     "name": "Sneakers",
     "category": "Footwear",
     "description": "Sneakers - footwear item, comfortable and durable, suitable for daily wear.",
-    "base_price": 4509.0,
+    "base_price": 2239.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1055-7-BLA",
-        "size": "7",
-        "color": "Black",
-        "price": 4509.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1055-8-BLA",
-        "size": "8",
-        "color": "Black",
-        "price": 4509.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1055-7-GRE",
-        "size": "7",
+        "sku": "PROD1047-9-GRE",
+        "size": "9",
         "color": "Grey",
-        "price": 4509.0,
+        "price": 2239.0,
         "stock": 0
       },
       {
-        "sku": "PROD1055-8-GRE",
-        "size": "8",
+        "sku": "PROD1047-6-BLA",
+        "size": "6",
+        "color": "Black",
+        "price": 2239.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1047-10-GRE",
+        "size": "10",
         "color": "Grey",
-        "price": 4509.0,
+        "price": 2239.0,
         "stock": 50
       },
       {
-        "sku": "PROD1055-10-BLA",
+        "sku": "PROD1047-8-GRE",
+        "size": "8",
+        "color": "Grey",
+        "price": 2189.0,
+        "stock": 2
+      },
+      {
+        "sku": "PROD1047-9-WHI",
+        "size": "9",
+        "color": "White",
+        "price": 2239.0,
+        "stock": 2
+      },
+      {
+        "sku": "PROD1047-8-WHI",
+        "size": "8",
+        "color": "White",
+        "price": 2239.0,
+        "stock": 0
+      }
+    ],
+    "rating": 3.6,
+    "return_window_days": 15
+  },
+  {
+    "product_id": "PROD1048",
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 2869.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1048-8-BLA",
+        "size": "8",
+        "color": "Black",
+        "price": 2969.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1048-7-BLA",
+        "size": "7",
+        "color": "Black",
+        "price": 2869.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1048-10-BLA",
         "size": "10",
         "color": "Black",
-        "price": 4509.0,
+        "price": 2869.0,
         "stock": 50
       },
       {
-        "sku": "PROD1055-7-WHI",
-        "size": "7",
+        "sku": "PROD1048-9-WHI",
+        "size": "9",
         "color": "White",
-        "price": 4609.0,
+        "price": 2969.0,
         "stock": 5
+      }
+    ],
+    "rating": 4.4,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1049",
+    "name": "Wireless Earbuds",
+    "category": "Electronics",
+    "description": "Wireless Earbuds with premium build quality and excellent features.",
+    "base_price": 2479.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1049-BLU",
+        "color": "Blue",
+        "price": 2379.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1049-WHI",
+        "color": "White",
+        "price": 2379.0,
+        "stock": 25
+      },
+      {
+        "sku": "PROD1049-BLA",
+        "color": "Black",
+        "price": 2479.0,
+        "stock": 25
       }
     ],
     "rating": 3.6,
     "return_window_days": 7
   },
   {
-    "product_id": "PROD1056",
-    "name": "Bluetooth Speaker",
-    "category": "Electronics",
-    "description": "Bluetooth Speaker with premium build quality and long battery life.",
-    "base_price": 3219.0,
+    "product_id": "PROD1050",
+    "name": "Table Lamp",
+    "category": "Home & Kitchen",
+    "description": "Table Lamp with premium build quality and excellent features.",
+    "base_price": 1309.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1056-WHI",
-        "color": "White",
-        "price": 3419.0,
-        "stock": 3
-      },
-      {
-        "sku": "PROD1056-BLU",
-        "color": "Blue",
-        "price": 3419.0,
-        "stock": 0
-      },
-      {
-        "sku": "PROD1056-BLA",
-        "color": "Black",
-        "price": 3419.0,
-        "stock": 3
-      }
-    ],
-    "rating": 4.6,
-    "return_window_days": 15
-  },
-  {
-    "product_id": "PROD1057",
-    "name": "Power Bank",
-    "category": "Electronics",
-    "description": "Power Bank with premium build quality and long battery life.",
-    "base_price": 7789.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1057-WHI",
-        "color": "White",
-        "price": 7689.0,
+        "sku": "PROD1050-GRE",
+        "color": "Grey",
+        "price": 1509.0,
         "stock": 25
       },
       {
-        "sku": "PROD1057-BLA",
+        "sku": "PROD1050-BLA",
         "color": "Black",
-        "price": 7789.0,
+        "price": 1509.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1050-WHI",
+        "color": "White",
+        "price": 1209.0,
+        "stock": 0
+      }
+    ],
+    "rating": 4.7,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1051",
+    "name": "Formal Shoes",
+    "category": "Footwear",
+    "description": "Formal Shoes - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 4649.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1051-8-WHI",
+        "size": "8",
+        "color": "White",
+        "price": 4649.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1051-7-GRE",
+        "size": "7",
+        "color": "Grey",
+        "price": 4599.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1051-10-WHI",
+        "size": "10",
+        "color": "White",
+        "price": 4749.0,
+        "stock": 30
+      }
+    ],
+    "rating": 4.2,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1052",
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "description": "Smart Watch with premium build quality and excellent features.",
+    "base_price": 2139.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1052-BLA",
+        "color": "Black",
+        "price": 2039.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1052-BLU",
+        "color": "Blue",
+        "price": 2139.0,
+        "stock": 3
+      }
+    ],
+    "rating": 3.7,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1053",
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "description": "Non-stick Pan with premium build quality and excellent features.",
+    "base_price": 509.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1053-WHI",
+        "color": "White",
+        "price": 509.0,
+        "stock": 25
+      },
+      {
+        "sku": "PROD1053-GRE",
+        "color": "Grey",
+        "price": 409.0,
+        "stock": 25
+      },
+      {
+        "sku": "PROD1053-BLU",
+        "color": "Blue",
+        "price": 509.0,
+        "stock": 10
+      }
+    ],
+    "rating": 3.8,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1054",
+    "name": "Hoodie",
+    "category": "Apparel",
+    "description": "Hoodie - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3329.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1054-M-MAR",
+        "size": "M",
+        "color": "Maroon",
+        "price": 3329.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1054-M-NAV",
+        "size": "M",
+        "color": "Navy",
+        "price": 3279.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1054-L-BLA",
+        "size": "L",
+        "color": "Black",
+        "price": 3429.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1054-S-NAV",
+        "size": "S",
+        "color": "Navy",
+        "price": 3279.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1054-M-WHI",
+        "size": "M",
+        "color": "White",
+        "price": 3329.0,
+        "stock": 0
+      }
+    ],
+    "rating": 4.4,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1055",
+    "name": "Ceramic Mug Set",
+    "category": "Home & Kitchen",
+    "description": "Ceramic Mug Set with premium build quality and excellent features.",
+    "base_price": 1959.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1055-BLA",
+        "color": "Black",
+        "price": 1959.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1055-BLU",
+        "color": "Blue",
+        "price": 1959.0,
+        "stock": 3
+      },
+      {
+        "sku": "PROD1055-GRE",
+        "color": "Grey",
+        "price": 1859.0,
+        "stock": 3
+      }
+    ],
+    "rating": 3.6,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1056",
+    "name": "Cotton T-Shirt",
+    "category": "Apparel",
+    "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 2449.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1056-M-BLA",
+        "size": "M",
+        "color": "Black",
+        "price": 2549.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1056-S-MAR",
+        "size": "S",
+        "color": "Maroon",
+        "price": 2549.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1056-M-MAR",
+        "size": "M",
+        "color": "Maroon",
+        "price": 2549.0,
+        "stock": 12
+      }
+    ],
+    "rating": 3.9,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1057",
+    "name": "Sandals",
+    "category": "Footwear",
+    "description": "Sandals - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3519.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1057-7-GRE",
+        "size": "7",
+        "color": "Grey",
+        "price": 3619.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1057-10-WHI",
+        "size": "10",
+        "color": "White",
+        "price": 3619.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1057-9-WHI",
+        "size": "9",
+        "color": "White",
+        "price": 3519.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1057-6-WHI",
+        "size": "6",
+        "color": "White",
+        "price": 3619.0,
+        "stock": 0
+      }
+    ],
+    "rating": 4.6,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1058",
+    "name": "Power Bank",
+    "category": "Electronics",
+    "description": "Power Bank with premium build quality and excellent features.",
+    "base_price": 5359.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1058-WHI",
+        "color": "White",
+        "price": 5559.0,
+        "stock": 3
+      },
+      {
+        "sku": "PROD1058-BLU",
+        "color": "Blue",
+        "price": 5259.0,
+        "stock": 3
+      }
+    ],
+    "rating": 4.3,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1059",
+    "name": "Wireless Earbuds",
+    "category": "Electronics",
+    "description": "Wireless Earbuds with premium build quality and excellent features.",
+    "base_price": 4439.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1059-BLU",
+        "color": "Blue",
+        "price": 4639.0,
+        "stock": 25
+      },
+      {
+        "sku": "PROD1059-BLA",
+        "color": "Black",
+        "price": 4639.0,
+        "stock": 3
+      }
+    ],
+    "rating": 4.4,
+    "return_window_days": 15
+  },
+  {
+    "product_id": "PROD1060",
+    "name": "Wireless Earbuds",
+    "category": "Electronics",
+    "description": "Wireless Earbuds with premium build quality and excellent features.",
+    "base_price": 6939.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1060-BLA",
+        "color": "Black",
+        "price": 6839.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1060-WHI",
+        "color": "White",
+        "price": 7139.0,
+        "stock": 0
+      }
+    ],
+    "rating": 3.7,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1061",
+    "name": "Cotton T-Shirt",
+    "category": "Apparel",
+    "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 769.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1061-M-BLA",
+        "size": "M",
+        "color": "Black",
+        "price": 769.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1061-L-NAV",
+        "size": "L",
+        "color": "Navy",
+        "price": 769.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1061-S-BLA",
+        "size": "S",
+        "color": "Black",
+        "price": 769.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1061-S-WHI",
+        "size": "S",
+        "color": "White",
+        "price": 869.0,
+        "stock": 5
+      }
+    ],
+    "rating": 4.6,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1062",
+    "name": "Kurta",
+    "category": "Apparel",
+    "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 2989.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1062-S-MAR",
+        "size": "S",
+        "color": "Maroon",
+        "price": 2989.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1062-L-OLI",
+        "size": "L",
+        "color": "Olive",
+        "price": 2989.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1062-XL-NAV",
+        "size": "XL",
+        "color": "Navy",
+        "price": 2939.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1062-M-MAR",
+        "size": "M",
+        "color": "Maroon",
+        "price": 2989.0,
+        "stock": 12
+      }
+    ],
+    "rating": 3.9,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1063",
+    "name": "Kurta",
+    "category": "Apparel",
+    "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 2879.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1063-M-MAR",
+        "size": "M",
+        "color": "Maroon",
+        "price": 2979.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1063-XL-MAR",
+        "size": "XL",
+        "color": "Maroon",
+        "price": 2829.0,
+        "stock": 30
+      },
+      {
+        "sku": "PROD1063-M-WHI",
+        "size": "M",
+        "color": "White",
+        "price": 2979.0,
+        "stock": 2
+      }
+    ],
+    "rating": 4.4,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1064",
+    "name": "Chinos",
+    "category": "Apparel",
+    "description": "Chinos - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 649.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1064-S-NAV",
+        "size": "S",
+        "color": "Navy",
+        "price": 649.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1064-L-WHI",
+        "size": "L",
+        "color": "White",
+        "price": 649.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1064-S-WHI",
+        "size": "S",
+        "color": "White",
+        "price": 649.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1064-L-NAV",
+        "size": "L",
+        "color": "Navy",
+        "price": 649.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1064-S-BLA",
+        "size": "S",
+        "color": "Black",
+        "price": 649.0,
+        "stock": 0
+      }
+    ],
+    "rating": 4.4,
+    "return_window_days": 7
+  },
+  {
+    "product_id": "PROD1065",
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "description": "Bluetooth Speaker with premium build quality and excellent features.",
+    "base_price": 6559.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1065-BLA",
+        "color": "Black",
+        "price": 6559.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1065-BLU",
+        "color": "Blue",
+        "price": 6559.0,
+        "stock": 0
+      }
+    ],
+    "rating": 4.7,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1066",
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 5409.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1066-8-GRE",
+        "size": "8",
+        "color": "Grey",
+        "price": 5409.0,
+        "stock": 50
+      },
+      {
+        "sku": "PROD1066-7-WHI",
+        "size": "7",
+        "color": "White",
+        "price": 5409.0,
+        "stock": 2
+      },
+      {
+        "sku": "PROD1066-8-WHI",
+        "size": "8",
+        "color": "White",
+        "price": 5509.0,
+        "stock": 2
+      },
+      {
+        "sku": "PROD1066-6-GRE",
+        "size": "6",
+        "color": "Grey",
+        "price": 5359.0,
+        "stock": 2
+      }
+    ],
+    "rating": 3.5,
+    "return_window_days": 10
+  },
+  {
+    "product_id": "PROD1067",
+    "name": "Wireless Earbuds",
+    "category": "Electronics",
+    "description": "Wireless Earbuds with premium build quality and excellent features.",
+    "base_price": 6679.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1067-WHI",
+        "color": "White",
+        "price": 6679.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1067-BLU",
+        "color": "Blue",
+        "price": 6679.0,
+        "stock": 10
+      },
+      {
+        "sku": "PROD1067-BLA",
+        "color": "Black",
+        "price": 6679.0,
         "stock": 3
       }
     ],
@@ -2284,98 +2343,121 @@
     "return_window_days": 7
   },
   {
-    "product_id": "PROD1058",
-    "name": "Bluetooth Speaker",
-    "category": "Electronics",
-    "description": "Bluetooth Speaker with premium build quality and long battery life.",
-    "base_price": 6669.0,
+    "product_id": "PROD1068",
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
+    "base_price": 3879.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1058-BLU",
-        "color": "Blue",
-        "price": 6669.0,
-        "stock": 10
+        "sku": "PROD1068-7-GRE",
+        "size": "7",
+        "color": "Grey",
+        "price": 3979.0,
+        "stock": 50
       },
       {
-        "sku": "PROD1058-WHI",
+        "sku": "PROD1068-9-WHI",
+        "size": "9",
         "color": "White",
-        "price": 6669.0,
-        "stock": 25
-      }
-    ],
-    "rating": 3.8,
-    "return_window_days": 7
-  },
-  {
-    "product_id": "PROD1059",
-    "name": "Formal Shirt",
-    "category": "Apparel",
-    "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-    "base_price": 2029.0,
-    "currency": "INR",
-    "variants": [
-      {
-        "sku": "PROD1059-L-NAV",
-        "size": "L",
-        "color": "Navy",
-        "price": 2029.0,
-        "stock": 5
+        "price": 3979.0,
+        "stock": 12
       },
       {
-        "sku": "PROD1059-L-MAR",
-        "size": "L",
-        "color": "Maroon",
-        "price": 1979.0,
+        "sku": "PROD1068-6-WHI",
+        "size": "6",
+        "color": "White",
+        "price": 3879.0,
+        "stock": 2
+      },
+      {
+        "sku": "PROD1068-10-BLA",
+        "size": "10",
+        "color": "Black",
+        "price": 3879.0,
         "stock": 30
       },
       {
-        "sku": "PROD1059-XL-NAV",
-        "size": "XL",
-        "color": "Navy",
-        "price": 2029.0,
+        "sku": "PROD1068-9-BLA",
+        "size": "9",
+        "color": "Black",
+        "price": 3879.0,
         "stock": 5
       },
       {
-        "sku": "PROD1059-M-WHI",
-        "size": "M",
+        "sku": "PROD1068-10-WHI",
+        "size": "10",
         "color": "White",
-        "price": 2029.0,
-        "stock": 2
-      },
-      {
-        "sku": "PROD1059-L-BLA",
-        "size": "L",
-        "color": "Black",
-        "price": 2029.0,
-        "stock": 2
+        "price": 3879.0,
+        "stock": 0
       }
     ],
-    "rating": 3.9,
-    "return_window_days": 15
+    "rating": 4.8,
+    "return_window_days": 7
   },
   {
-    "product_id": "PROD1060",
-    "name": "Bluetooth Speaker",
-    "category": "Electronics",
-    "description": "Bluetooth Speaker with premium build quality and long battery life.",
-    "base_price": 3919.0,
+    "product_id": "PROD1069",
+    "name": "Table Lamp",
+    "category": "Home & Kitchen",
+    "description": "Table Lamp with premium build quality and excellent features.",
+    "base_price": 2389.0,
     "currency": "INR",
     "variants": [
       {
-        "sku": "PROD1060-WHI",
-        "color": "White",
-        "price": 3919.0,
-        "stock": 3
+        "sku": "PROD1069-GRE",
+        "color": "Grey",
+        "price": 2389.0,
+        "stock": 10
       },
       {
-        "sku": "PROD1060-BLA",
+        "sku": "PROD1069-BLA",
         "color": "Black",
-        "price": 4119.0,
-        "stock": 25
+        "price": 2289.0,
+        "stock": 0
       }
     ],
-    "rating": 3.7,
-    "return_window_days": 10
+    "rating": 4.1,
+    "return_window_days": 15
+  },
+  {
+    "product_id": "PROD1070",
+    "name": "Formal Shirt",
+    "category": "Apparel",
+    "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
+    "base_price": 1209.0,
+    "currency": "INR",
+    "variants": [
+      {
+        "sku": "PROD1070-M-MAR",
+        "size": "M",
+        "color": "Maroon",
+        "price": 1159.0,
+        "stock": 5
+      },
+      {
+        "sku": "PROD1070-L-WHI",
+        "size": "L",
+        "color": "White",
+        "price": 1309.0,
+        "stock": 12
+      },
+      {
+        "sku": "PROD1070-L-NAV",
+        "size": "L",
+        "color": "Navy",
+        "price": 1209.0,
+        "stock": 0
+      },
+      {
+        "sku": "PROD1070-S-WHI",
+        "size": "S",
+        "color": "White",
+        "price": 1309.0,
+        "stock": 5
+      }
+    ],
+    "rating": 4.4,
+    "return_window_days": 15
   }
 ]

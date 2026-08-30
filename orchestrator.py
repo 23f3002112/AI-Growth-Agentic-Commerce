@@ -8,7 +8,7 @@ working together against one shared catalog, gate, and audit trail.
 """
 
 import sys
-sys.path.insert(0, "../catalog")
+
 
 from discovery import CatalogDiscovery
 from upsell import UpsellAgent

@@ -30,6 +30,11 @@ CATEGORIES = {
         "variants": {"color": ["Black", "White", "Blue"]},
         "price_range": (799, 8999),
     },
+    "Home & Kitchen": {
+        "products": ["Ceramic Mug Set", "Non-stick Pan", "Table Lamp"],
+        "variants": {"color": ["White", "Black", "Grey", "Blue"]},
+        "price_range": (299, 3999),
+    },
 }
 
 
@@ -79,8 +84,8 @@ def generate_catalog(n, seed):
             "name": base_name,
             "category": category,
             "description": f"{base_name} - {category.lower()} item, comfortable and durable, "
-                            f"suitable for daily wear." if category != "Electronics"
-                            else f"{base_name} with premium build quality and long battery life.",
+                            f"suitable for daily wear." if category in ("Apparel", "Footwear")
+                            else f"{base_name} with premium build quality and excellent features.",
             "base_price": base_price,
             "currency": "INR",
             "variants": variants,
@@ -96,6 +101,7 @@ if __name__ == "__main__":
     parser.add_argument("--n", type=int, default=60)
     parser.add_argument("--seed", type=int, default=7)
     parser.add_argument("--outfile", type=str, default="merchant_catalog_raw.json")
+    parser.add_argument("--report", action="store_true", help="Print catalog distribution stats")
     args = parser.parse_args()
 
     catalog = generate_catalog(args.n, args.seed)
@@ -104,6 +110,28 @@ if __name__ == "__main__":
 
     total_variants = sum(len(p["variants"]) for p in catalog)
     out_of_stock = sum(1 for p in catalog for v in p["variants"] if v["stock"] == 0)
+    
+    if args.report:
+        print("\n--- Catalog Report ---")
+        cat_stats = {}
+        for p in catalog:
+            c = p["category"]
+            if c not in cat_stats:
+                cat_stats[c] = {"products": 0, "variants": 0, "oos": 0, "total_price": 0}
+            cat_stats[c]["products"] += 1
+            cat_stats[c]["variants"] += len(p["variants"])
+            cat_stats[c]["oos"] += sum(1 for v in p["variants"] if v["stock"] == 0)
+            cat_stats[c]["total_price"] += p["base_price"]
+        
+        for c, stats in cat_stats.items():
+            avg_price = stats["total_price"] / stats["products"] if stats["products"] > 0 else 0
+            print(f"Category: {c}")
+            print(f"  Products: {stats['products']}")
+            print(f"  Variants: {stats['variants']}")
+            print(f"  Out-of-stock: {stats['oos']}")
+            print(f"  Avg Price: INR {avg_price:.2f}")
+        print("----------------------\n")
+
     print(f"Generated {len(catalog)} products, {total_variants} total variants")
     print(f"Out-of-stock variants (intentional, for failure-handling demo): {out_of_stock}")
     print(f"Written to: {args.outfile}")
