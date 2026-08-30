@@ -1,0 +1,170 @@
+[
+  {
+    "timestamp": "2026-08-30T20:28:11.339916Z",
+    "session_id": "sess_001",
+    "actor": "upsell",
+    "action": "suggestions_generated",
+    "reason": "Generated 1 suggestion(s) based on cart category overlap and price-threshold proximity.",
+    "status": "ok",
+    "data": {
+      "suggestions": [
+        {
+          "sku": "PROD1020-M-NAV",
+          "name": "Formal Shirt",
+          "price": 1139.0,
+          "reason": "Frequently bought alongside Cotton T-Shirt (same category: Apparel, rated 4.9/5)."
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.339963Z",
+    "session_id": "sess_001",
+    "actor": "checkout",
+    "action": "checkout_initiated",
+    "reason": "Cart of 1 item(s), total INR 1549.0.",
+    "status": "ok",
+    "data": {
+      "items": [
+        "PROD1007-L-BLA"
+      ],
+      "total": 1549.0
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.339970Z",
+    "session_id": "sess_001",
+    "actor": "gate",
+    "action": "transaction_approved",
+    "reason": "Amount 1549.0 within all bounds (auto-approve limit 5000, daily ceiling 50000).",
+    "status": "ok",
+    "data": {
+      "amount": 1549.0
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.339996Z",
+    "session_id": "sess_001",
+    "actor": "checkout",
+    "action": "payment_success",
+    "reason": "Payment of INR 1549.0 succeeded. Order: order_test_cecafe739889.",
+    "status": "ok",
+    "data": {
+      "success": true,
+      "order_id": "order_test_cecafe739889",
+      "amount": 1549.0
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340053Z",
+    "session_id": "sess_002",
+    "actor": "agent",
+    "action": "item_unavailable",
+    "reason": "Buyer requested Sneakers (PROD1001-9-GRE), but it is OUT_OF_STOCK.",
+    "status": "needs_fallback",
+    "data": {
+      "sku": "PROD1001-9-GRE"
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340070Z",
+    "session_id": "sess_002",
+    "actor": "agent",
+    "action": "substitute_found",
+    "reason": "Found in-stock substitute: Sneakers (PROD1001-9-WHI), same product line as originally requested item.",
+    "status": "ok",
+    "data": {
+      "original_sku": "PROD1001-9-GRE",
+      "substitute_sku": "PROD1001-9-WHI"
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340078Z",
+    "session_id": "sess_002",
+    "actor": "checkout",
+    "action": "checkout_initiated",
+    "reason": "Cart of 1 item(s), total INR 2979.0.",
+    "status": "ok",
+    "data": {
+      "items": [
+        "PROD1001-9-WHI"
+      ],
+      "total": 2979.0
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340084Z",
+    "session_id": "sess_002",
+    "actor": "gate",
+    "action": "transaction_approved",
+    "reason": "Amount 2979.0 within all bounds (auto-approve limit 5000, daily ceiling 50000).",
+    "status": "ok",
+    "data": {
+      "amount": 2979.0
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340097Z",
+    "session_id": "sess_002",
+    "actor": "checkout",
+    "action": "payment_success",
+    "reason": "Payment of INR 2979.0 succeeded. Order: order_test_d502386e8284.",
+    "status": "ok",
+    "data": {
+      "success": true,
+      "order_id": "order_test_d502386e8284",
+      "amount": 2979.0
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340184Z",
+    "session_id": "sess_003",
+    "actor": "checkout",
+    "action": "checkout_initiated",
+    "reason": "Cart of 3 item(s), total INR 22397.0.",
+    "status": "ok",
+    "data": {
+      "items": [
+        "PROD1057-BLA",
+        "PROD1057-WHI",
+        "PROD1023-BLA"
+      ],
+      "total": 22397.0
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340189Z",
+    "session_id": "sess_003",
+    "actor": "gate",
+    "action": "needs_approval",
+    "reason": "Amount 22397.0 exceeds auto-approve limit 5000. Routing to human confirmation.",
+    "status": "needs_approval",
+    "data": {
+      "amount": 22397.0
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340222Z",
+    "session_id": "sess_004",
+    "actor": "campaign",
+    "action": "recovery_offer_triggered",
+    "reason": "High-value cart (INR 5148.0) idle for 25 min. Offering 10% recovery discount, within the 15% auto-approve ceiling.",
+    "status": "ok",
+    "data": {
+      "cart_total": 5148.0,
+      "discount_percent": 10
+    }
+  },
+  {
+    "timestamp": "2026-08-30T20:28:11.340231Z",
+    "session_id": "sess_004",
+    "actor": "campaign",
+    "action": "slow_stock_promo_triggered",
+    "reason": "Cotton T-Shirt (PROD1002-L-WHI) has 0 sales in 45 days. Triggering 12% promo, within ceiling.",
+    "status": "ok",
+    "data": {
+      "sku": "PROD1002-L-WHI",
+      "discount_percent": 12
+    }
+  }
+]
