@@ -1,6 +1,26 @@
 # AI Growth & Agentic Commerce — Unified Agent
 Razorpay AI Buildathon 2026 — Track 01
 
+## Dev Setup
+```bash
+# 1. Create a virtual environment
+python -m venv venv
+
+# 2. Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+# source venv/bin/activate
+
+# 3. Install dependencies (only standard library is used, so this is just to verify)
+pip install -r requirements.txt
+
+# 4. Run the full pipeline in order
+python generate_catalog.py --n 60 --seed 7
+python schema.py
+python orchestrator.py
+```
+
 ## Problem
 Track 01 asks for an agent that either grows a merchant's revenue, or makes
 the merchant transactable by an AI buyer end to end. Rather than picking one
@@ -56,12 +76,10 @@ backend/orchestrator.py        -> ties everything together, runs 4 end-to-end de
 
 ## How to run
 ```bash
-cd catalog
-python3 generate_catalog.py --n 60 --seed 7
-python3 schema.py
-
-cd ../backend
-python3 orchestrator.py
+# All files are currently located in the root directory.
+python generate_catalog.py --n 60 --seed 7
+python schema.py
+python orchestrator.py
 ```
 
 ## What each demo proves (from an actual run)
