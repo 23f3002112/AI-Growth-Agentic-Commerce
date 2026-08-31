@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
+import os
 
-API_BASE_URL = "http://localhost:8000"
+API_BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:8000")
 
 st.set_page_config(page_title="Agentic Commerce", page_icon="🛍️", layout="wide")
 
