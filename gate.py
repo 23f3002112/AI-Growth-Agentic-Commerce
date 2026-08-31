@@ -42,6 +42,14 @@ class TransactionGate:
                                 data={"sku": item.get("sku")}, status="blocked")
                 return False, "category_blocked", False
 
+            # Rule 2.5: single item exceeds 40% of MAX_DAILY_AGENT_SPEND
+            if item["price"]["amount"] > MAX_DAILY_AGENT_SPEND * 0.4:
+                self.audit.log(session_id, "gate", "transaction_blocked",
+                                f"Item '{item.get('name')}' price ({item['price']['amount']}) exceeds "
+                                f"single-item limit (40% of {MAX_DAILY_AGENT_SPEND}).",
+                                data={"sku": item.get("sku"), "amount": item["price"]["amount"]}, status="blocked")
+                return False, "single_item_limit_exceeded", False
+
         # Rule 3: daily spend ceiling
         if spent_so_far + total_amount > MAX_DAILY_AGENT_SPEND:
             self.audit.log(session_id, "gate", "transaction_blocked",

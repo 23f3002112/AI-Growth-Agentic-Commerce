@@ -44,3 +44,13 @@ class AuditTrail:
         for e in self.for_session(session_id):
             print(f"[{e['timestamp']}] {e['actor']:>10} | {e['action']:<25} | "
                   f"{e['status']:<15} | {e['reason']}")
+
+    def summary_by_actor(self, session_id):
+        summary = {}
+        for e in self.for_session(session_id):
+            actor = e["actor"]
+            summary[actor] = summary.get(actor, 0) + 1
+        return summary
+
+    def export_for_review(self, session_id):
+        return [e for e in self.for_session(session_id) if e["status"] in ("blocked", "needs_approval", "error")]

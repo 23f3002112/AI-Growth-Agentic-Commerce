@@ -14,22 +14,26 @@ class CatalogDiscovery:
         self.items = data["items"]
 
     def query(self, category=None, name_contains=None, max_price=None,
-              attributes=None, only_in_stock=True):
+              attributes=None, only_in_stock=True, text=None):
         """
         A structured query interface — this is what an AI buyer agent calls
         instead of scraping a webpage. Returns ranked candidates.
         """
         results = self.items
 
-        if category:
-            results = [i for i in results if i["category"].lower() == category.lower()]
-        if name_contains:
-            results = [i for i in results if name_contains.lower() in i["name"].lower()]
-        if max_price:
-            results = [i for i in results if i["price"]["amount"] <= max_price]
-        if attributes:
-            for k, v in attributes.items():
-                results = [i for i in results if i["attributes"].get(k, "").lower() == v.lower()]
+        if text:
+            tokens = text.lower().split()
+            results = [i for i in results if all(any(token in kw for kw in i.get("search_keywords", [])) for token in tokens)]
+        else:
+            if category:
+                results = [i for i in results if i["category"].lower() == category.lower()]
+            if name_contains:
+                results = [i for i in results if name_contains.lower() in i["name"].lower()]
+            if max_price:
+                results = [i for i in results if i["price"]["amount"] <= max_price]
+            if attributes:
+                for k, v in attributes.items():
+                    results = [i for i in results if i["attributes"].get(k, "").lower() == v.lower()]
         if only_in_stock:
             in_stock = [i for i in results if i["availability"]["in_stock"]]
             out_of_stock = [i for i in results if not i["availability"]["in_stock"]]

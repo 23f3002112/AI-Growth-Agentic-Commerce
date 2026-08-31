@@ -101,6 +101,14 @@ def run_demo():
     print(f"\n\nTotal audit events logged across all demos: {len(audit.events)}")
     print("Full audit trail saved to: full_audit_trail.json")
 
+    print("\n" + "=" * 70)
+    print("DEMO 5: Ad-hoc test — free-text discovery query")
+    print("=" * 70)
+    ad_hoc_result = discovery.query(text="ceramic mug")
+    print("Matches for text='ceramic mug':")
+    for match in ad_hoc_result["matches"]:
+        print(f" - {match['name']} ({match['sku']}) - {match['category']}")
+
 
 if __name__ == "__main__":
     run_demo()
