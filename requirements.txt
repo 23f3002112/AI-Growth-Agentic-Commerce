@@ -1,3 +1,8 @@
 razorpay
 google-generativeai
 python-dotenv
+fastapi
+uvicorn
+streamlit
+pydantic
+requests

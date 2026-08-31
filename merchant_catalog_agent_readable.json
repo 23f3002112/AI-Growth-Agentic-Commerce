@@ -4,9 +4,9 @@
     "name": "Demo Merchant Pvt Ltd",
     "supports_agentic_checkout": true,
     "payment_gateway": "razorpay_test_mode",
-    "last_updated": "2026-08-30T20:52:10.506762+00:00"
+    "last_updated": "2026-08-31T21:17:57.739825+00:00"
   },
-  "catalog_size": 244,
+  "catalog_size": 207,
   "items": [
     {
       "sku": "PROD1001-BLA",
@@ -33,10 +33,10 @@
       },
       "rating": 3.8,
       "search_keywords": [
-        "speaker",
         "bluetooth",
+        "black",
         "electronics",
-        "black"
+        "speaker"
       ]
     },
     {
@@ -64,10 +64,10 @@
       },
       "rating": 3.8,
       "search_keywords": [
-        "speaker",
-        "blue",
         "bluetooth",
-        "electronics"
+        "blue",
+        "electronics",
+        "speaker"
       ]
     },
     {
@@ -95,10 +95,10 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "pan",
         "blue",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -126,10 +126,10 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "pan",
         "white",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -158,11 +158,11 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "8",
-        "white",
         "shoes",
-        "footwear",
-        "running"
+        "white",
+        "8",
+        "running",
+        "footwear"
       ]
     },
     {
@@ -192,10 +192,10 @@
       "rating": 3.9,
       "search_keywords": [
         "shoes",
-        "footwear",
-        "black",
         "10",
-        "running"
+        "running",
+        "black",
+        "footwear"
       ]
     },
     {
@@ -224,11 +224,11 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "7",
         "shoes",
-        "footwear",
         "black",
-        "running"
+        "running",
+        "7",
+        "footwear"
       ]
     },
     {
@@ -256,10 +256,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "pan",
         "black",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -287,10 +287,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "pan",
         "white",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -319,11 +319,11 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "t-shirt",
-        "l",
         "cotton",
+        "apparel",
         "navy",
-        "apparel"
+        "l",
+        "t-shirt"
       ]
     },
     {
@@ -352,11 +352,11 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "t-shirt",
-        "s",
         "cotton",
+        "apparel",
+        "s",
         "navy",
-        "apparel"
+        "t-shirt"
       ]
     },
     {
@@ -385,11 +385,11 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "t-shirt",
-        "l",
         "cotton",
+        "maroon",
         "apparel",
-        "maroon"
+        "l",
+        "t-shirt"
       ]
     },
     {
@@ -418,11 +418,11 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "m",
-        "t-shirt",
         "cotton",
+        "apparel",
         "navy",
-        "apparel"
+        "m",
+        "t-shirt"
       ]
     },
     {
@@ -451,11 +451,11 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "m",
-        "white",
-        "t-shirt",
         "cotton",
-        "apparel"
+        "apparel",
+        "white",
+        "m",
+        "t-shirt"
       ]
     },
     {
@@ -483,10 +483,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "speaker",
         "bluetooth",
+        "black",
         "electronics",
-        "black"
+        "speaker"
       ]
     },
     {
@@ -514,10 +514,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "speaker",
-        "blue",
         "bluetooth",
-        "electronics"
+        "blue",
+        "electronics",
+        "speaker"
       ]
     },
     {
@@ -545,10 +545,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "speaker",
-        "white",
         "bluetooth",
-        "electronics"
+        "white",
+        "electronics",
+        "speaker"
       ]
     },
     {
@@ -576,10 +576,10 @@
       },
       "rating": 3.8,
       "search_keywords": [
-        "speaker",
-        "blue",
         "bluetooth",
-        "electronics"
+        "blue",
+        "electronics",
+        "speaker"
       ]
     },
     {
@@ -607,10 +607,10 @@
       },
       "rating": 3.8,
       "search_keywords": [
-        "speaker",
-        "white",
         "bluetooth",
-        "electronics"
+        "white",
+        "electronics",
+        "speaker"
       ]
     },
     {
@@ -638,10 +638,10 @@
       },
       "rating": 3.8,
       "search_keywords": [
-        "speaker",
         "bluetooth",
+        "black",
         "electronics",
-        "black"
+        "speaker"
       ]
     },
     {
@@ -670,10 +670,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
+        "hoodie",
         "navy",
         "m",
-        "apparel",
-        "hoodie"
+        "apparel"
       ]
     },
     {
@@ -702,10 +702,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "olive",
-        "apparel",
         "l",
-        "hoodie"
+        "hoodie",
+        "olive",
+        "apparel"
       ]
     },
     {
@@ -734,10 +734,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "apparel",
-        "s",
+        "hoodie",
         "white",
-        "hoodie"
+        "s",
+        "apparel"
       ]
     },
     {
@@ -766,10 +766,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "maroon",
-        "apparel",
         "l",
-        "hoodie"
+        "hoodie",
+        "maroon",
+        "apparel"
       ]
     },
     {
@@ -798,10 +798,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
+        "hoodie",
         "xl",
-        "apparel",
         "black",
-        "hoodie"
+        "apparel"
       ]
     },
     {
@@ -830,10 +830,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "apparel",
         "l",
+        "hoodie",
         "black",
-        "hoodie"
+        "apparel"
       ]
     },
     {
@@ -863,10 +863,10 @@
       "rating": 4.7,
       "search_keywords": [
         "shoes",
-        "footwear",
-        "black",
         "10",
-        "running"
+        "running",
+        "black",
+        "footwear"
       ]
     },
     {
@@ -895,11 +895,11 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "7",
         "shoes",
-        "footwear",
         "grey",
-        "running"
+        "running",
+        "7",
+        "footwear"
       ]
     },
     {
@@ -928,11 +928,11 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "white",
         "shoes",
-        "footwear",
         "10",
-        "running"
+        "white",
+        "running",
+        "footwear"
       ]
     },
     {
@@ -962,10 +962,10 @@
       "rating": 4.7,
       "search_keywords": [
         "shoes",
-        "footwear",
+        "9",
         "grey",
         "running",
-        "9"
+        "footwear"
       ]
     },
     {
@@ -994,11 +994,11 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "white",
         "shoes",
-        "footwear",
+        "9",
+        "white",
         "running",
-        "9"
+        "footwear"
       ]
     },
     {
@@ -1027,11 +1027,11 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "8",
-        "white",
         "shoes",
-        "footwear",
-        "running"
+        "white",
+        "8",
+        "running",
+        "footwear"
       ]
     },
     {
@@ -1060,11 +1060,11 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "denim",
         "jacket",
-        "black",
+        "apparel",
         "xl",
-        "apparel"
+        "denim",
+        "black"
       ]
     },
     {
@@ -1093,11 +1093,11 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "denim",
         "jacket",
-        "xl",
+        "maroon",
         "apparel",
-        "maroon"
+        "xl",
+        "denim"
       ]
     },
     {
@@ -1126,11 +1126,11 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "denim",
         "jacket",
-        "s",
         "olive",
-        "apparel"
+        "apparel",
+        "s",
+        "denim"
       ]
     },
     {
@@ -1159,11 +1159,11 @@
       },
       "rating": 4.5,
       "search_keywords": [
+        "jacket",
+        "apparel",
         "m",
         "white",
-        "denim",
-        "jacket",
-        "apparel"
+        "denim"
       ]
     },
     {
@@ -1191,10 +1191,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "power",
-        "bank",
         "white",
-        "electronics"
+        "electronics",
+        "bank",
+        "power"
       ]
     },
     {
@@ -1222,10 +1222,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "power",
-        "bank",
         "blue",
-        "electronics"
+        "electronics",
+        "bank",
+        "power"
       ]
     },
     {
@@ -1253,10 +1253,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "power",
-        "bank",
+        "black",
         "electronics",
-        "black"
+        "bank",
+        "power"
       ]
     },
     {
@@ -1285,10 +1285,10 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "m",
-        "apparel",
+        "hoodie",
         "olive",
-        "hoodie"
+        "m",
+        "apparel"
       ]
     },
     {
@@ -1317,10 +1317,10 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "olive",
-        "apparel",
         "l",
-        "hoodie"
+        "hoodie",
+        "olive",
+        "apparel"
       ]
     },
     {
@@ -1349,10 +1349,10 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "maroon",
-        "apparel",
+        "hoodie",
         "s",
-        "hoodie"
+        "maroon",
+        "apparel"
       ]
     },
     {
@@ -1380,10 +1380,10 @@
       },
       "rating": 4.9,
       "search_keywords": [
-        "speaker",
         "bluetooth",
+        "black",
         "electronics",
-        "black"
+        "speaker"
       ]
     },
     {
@@ -1411,10 +1411,10 @@
       },
       "rating": 4.9,
       "search_keywords": [
-        "speaker",
-        "blue",
         "bluetooth",
-        "electronics"
+        "blue",
+        "electronics",
+        "speaker"
       ]
     },
     {
@@ -1444,10 +1444,10 @@
       "rating": 3.5,
       "search_keywords": [
         "shoes",
-        "footwear",
+        "9",
         "grey",
         "running",
-        "9"
+        "footwear"
       ]
     },
     {
@@ -1477,10 +1477,10 @@
       "rating": 3.5,
       "search_keywords": [
         "shoes",
-        "footwear",
-        "black",
         "10",
-        "running"
+        "running",
+        "black",
+        "footwear"
       ]
     },
     {
@@ -1509,11 +1509,11 @@
       },
       "rating": 3.5,
       "search_keywords": [
-        "white",
         "shoes",
-        "footwear",
+        "9",
+        "white",
         "running",
-        "9"
+        "footwear"
       ]
     },
     {
@@ -1543,10 +1543,10 @@
       "rating": 3.5,
       "search_keywords": [
         "shoes",
-        "footwear",
+        "6",
         "grey",
         "running",
-        "6"
+        "footwear"
       ]
     },
     {
@@ -1608,9 +1608,9 @@
       "rating": 4.0,
       "search_keywords": [
         "grey",
-        "6",
         "footwear",
-        "sneakers"
+        "sneakers",
+        "6"
       ]
     },
     {
@@ -1640,8 +1640,8 @@
       "rating": 4.0,
       "search_keywords": [
         "7",
-        "black",
         "footwear",
+        "black",
         "sneakers"
       ]
     },
@@ -1704,8 +1704,8 @@
       "rating": 4.0,
       "search_keywords": [
         "7",
-        "white",
         "footwear",
+        "white",
         "sneakers"
       ]
     },
@@ -1735,10 +1735,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "6",
+        "grey",
         "footwear",
         "sandals",
-        "grey"
+        "6"
       ]
     },
     {
@@ -1799,10 +1799,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "6",
+        "black",
         "footwear",
         "sandals",
-        "black"
+        "6"
       ]
     },
     {
@@ -1863,10 +1863,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "6",
         "white",
         "footwear",
-        "sandals"
+        "sandals",
+        "6"
       ]
     },
     {
@@ -1927,10 +1927,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "6",
+        "black",
         "footwear",
         "sandals",
-        "black"
+        "6"
       ]
     },
     {
@@ -1959,10 +1959,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "8",
         "footwear",
         "sandals",
-        "grey"
+        "grey",
+        "8"
       ]
     },
     {
@@ -2024,9 +2024,9 @@
       "rating": 4.1,
       "search_keywords": [
         "7",
-        "white",
         "footwear",
-        "sandals"
+        "sandals",
+        "white"
       ]
     },
     {
@@ -2055,10 +2055,10 @@
       },
       "rating": 4.8,
       "search_keywords": [
+        "hoodie",
         "navy",
         "m",
-        "apparel",
-        "hoodie"
+        "apparel"
       ]
     },
     {
@@ -2087,10 +2087,10 @@
       },
       "rating": 4.8,
       "search_keywords": [
-        "m",
-        "apparel",
+        "hoodie",
         "olive",
-        "hoodie"
+        "m",
+        "apparel"
       ]
     },
     {
@@ -2119,10 +2119,10 @@
       },
       "rating": 4.8,
       "search_keywords": [
-        "olive",
-        "apparel",
         "l",
-        "hoodie"
+        "hoodie",
+        "olive",
+        "apparel"
       ]
     },
     {
@@ -2151,10 +2151,10 @@
       },
       "rating": 4.8,
       "search_keywords": [
-        "m",
-        "apparel",
+        "hoodie",
         "black",
-        "hoodie"
+        "m",
+        "apparel"
       ]
     },
     {
@@ -2183,10 +2183,10 @@
       },
       "rating": 4.8,
       "search_keywords": [
-        "navy",
+        "hoodie",
         "xl",
-        "apparel",
-        "hoodie"
+        "navy",
+        "apparel"
       ]
     },
     {
@@ -2215,10 +2215,10 @@
       },
       "rating": 4.8,
       "search_keywords": [
-        "apparel",
         "l",
+        "hoodie",
         "black",
-        "hoodie"
+        "apparel"
       ]
     },
     {
@@ -2247,10 +2247,10 @@
       },
       "rating": 4.6,
       "search_keywords": [
-        "l",
         "formal",
-        "navy",
         "apparel",
+        "navy",
+        "l",
         "shirt"
       ]
     },
@@ -2280,10 +2280,10 @@
       },
       "rating": 4.6,
       "search_keywords": [
-        "white",
-        "l",
         "formal",
         "apparel",
+        "l",
+        "white",
         "shirt"
       ]
     },
@@ -2313,10 +2313,10 @@
       },
       "rating": 4.6,
       "search_keywords": [
-        "white",
-        "xl",
         "formal",
         "apparel",
+        "white",
+        "xl",
         "shirt"
       ]
     },
@@ -2345,8 +2345,8 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "home & kitchen",
         "table",
+        "home & kitchen",
         "lamp",
         "grey"
       ]
@@ -2376,9 +2376,9 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "home & kitchen",
         "table",
         "white",
+        "home & kitchen",
         "lamp"
       ]
     },
@@ -2407,10 +2407,10 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "home & kitchen",
         "table",
-        "lamp",
-        "black"
+        "black",
+        "home & kitchen",
+        "lamp"
       ]
     },
     {
@@ -2439,10 +2439,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "apparel",
         "l",
         "black",
-        "kurta"
+        "kurta",
+        "apparel"
       ]
     },
     {
@@ -2471,10 +2471,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "navy",
         "m",
-        "apparel",
-        "kurta"
+        "kurta",
+        "navy",
+        "apparel"
       ]
     },
     {
@@ -2504,9 +2504,9 @@
       "rating": 4.1,
       "search_keywords": [
         "xl",
-        "apparel",
+        "kurta",
         "olive",
-        "kurta"
+        "apparel"
       ]
     },
     {
@@ -2535,10 +2535,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "maroon",
-        "apparel",
         "s",
-        "kurta"
+        "kurta",
+        "maroon",
+        "apparel"
       ]
     },
     {
@@ -2568,9 +2568,9 @@
       "rating": 4.1,
       "search_keywords": [
         "m",
-        "apparel",
+        "kurta",
         "olive",
-        "kurta"
+        "apparel"
       ]
     },
     {
@@ -2599,10 +2599,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "apparel",
-        "s",
         "white",
-        "kurta"
+        "s",
+        "kurta",
+        "apparel"
       ]
     },
     {
@@ -2630,10 +2630,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "power",
-        "bank",
         "white",
-        "electronics"
+        "electronics",
+        "bank",
+        "power"
       ]
     },
     {
@@ -2661,10 +2661,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "power",
-        "bank",
         "blue",
-        "electronics"
+        "electronics",
+        "bank",
+        "power"
       ]
     },
     {
@@ -2692,10 +2692,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "power",
-        "bank",
+        "black",
         "electronics",
-        "black"
+        "bank",
+        "power"
       ]
     },
     {
@@ -2723,10 +2723,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "pan",
         "black",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -2754,10 +2754,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "pan",
         "grey",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -2786,10 +2786,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "maroon",
-        "apparel",
         "l",
-        "hoodie"
+        "hoodie",
+        "maroon",
+        "apparel"
       ]
     },
     {
@@ -2818,10 +2818,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "olive",
-        "apparel",
+        "hoodie",
         "s",
-        "hoodie"
+        "olive",
+        "apparel"
       ]
     },
     {
@@ -2850,10 +2850,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "apparel",
-        "s",
         "black",
-        "hoodie"
+        "hoodie",
+        "s",
+        "apparel"
       ]
     },
     {
@@ -2882,10 +2882,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "apparel",
-        "s",
+        "hoodie",
         "white",
-        "hoodie"
+        "s",
+        "apparel"
       ]
     },
     {
@@ -2913,10 +2913,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "pan",
         "black",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -2944,10 +2944,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "pan",
         "blue",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -2976,10 +2976,10 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "apparel",
-        "s",
         "white",
-        "kurta"
+        "s",
+        "kurta",
+        "apparel"
       ]
     },
     {
@@ -3009,9 +3009,9 @@
       "rating": 4.3,
       "search_keywords": [
         "m",
-        "apparel",
         "black",
-        "kurta"
+        "kurta",
+        "apparel"
       ]
     },
     {
@@ -3040,10 +3040,10 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "maroon",
-        "apparel",
         "s",
-        "kurta"
+        "kurta",
+        "maroon",
+        "apparel"
       ]
     },
     {
@@ -3071,10 +3071,10 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "mug",
         "black",
         "home & kitchen",
         "set",
+        "mug",
         "ceramic"
       ]
     },
@@ -3103,10 +3103,10 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "mug",
         "grey",
         "home & kitchen",
         "set",
+        "mug",
         "ceramic"
       ]
     },
@@ -3168,10 +3168,10 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "8",
+        "black",
         "footwear",
         "sandals",
-        "black"
+        "8"
       ]
     },
     {
@@ -3201,9 +3201,9 @@
       "rating": 4.2,
       "search_keywords": [
         "10",
+        "black",
         "footwear",
-        "sandals",
-        "black"
+        "sandals"
       ]
     },
     {
@@ -3232,10 +3232,10 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "grey",
         "footwear",
         "sandals",
-        "9"
+        "9",
+        "grey"
       ]
     },
     {
@@ -3263,10 +3263,10 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "blue",
-        "mug",
         "home & kitchen",
         "set",
+        "mug",
+        "blue",
         "ceramic"
       ]
     },
@@ -3295,10 +3295,10 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "mug",
         "black",
         "home & kitchen",
         "set",
+        "mug",
         "ceramic"
       ]
     },
@@ -3327,10 +3327,10 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "mug",
         "grey",
         "home & kitchen",
         "set",
+        "mug",
         "ceramic"
       ]
     },
@@ -3359,8 +3359,8 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "smart",
         "black",
+        "smart",
         "electronics",
         "watch"
       ]
@@ -3390,8 +3390,8 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "smart",
         "blue",
+        "smart",
         "electronics",
         "watch"
       ]
@@ -3422,10 +3422,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "m",
         "formal",
-        "apparel",
         "maroon",
+        "apparel",
+        "m",
         "shirt"
       ]
     },
@@ -3455,11 +3455,11 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "black",
-        "s",
         "formal",
         "apparel",
-        "shirt"
+        "s",
+        "shirt",
+        "black"
       ]
     },
     {
@@ -3488,10 +3488,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "m",
         "formal",
-        "navy",
         "apparel",
+        "navy",
+        "m",
         "shirt"
       ]
     },
@@ -3521,11 +3521,11 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "m",
-        "black",
         "formal",
         "apparel",
-        "shirt"
+        "m",
+        "shirt",
+        "black"
       ]
     },
     {
@@ -3554,11 +3554,11 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "black",
-        "xl",
         "formal",
         "apparel",
-        "shirt"
+        "xl",
+        "shirt",
+        "black"
       ]
     },
     {
@@ -3587,10 +3587,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "white",
-        "l",
         "formal",
         "apparel",
+        "l",
+        "white",
         "shirt"
       ]
     },
@@ -3619,10 +3619,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "pan",
         "grey",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -3650,10 +3650,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "pan",
         "black",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -3681,10 +3681,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "pan",
         "white",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -3712,9 +3712,9 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "home & kitchen",
         "table",
         "blue",
+        "home & kitchen",
         "lamp"
       ]
     },
@@ -3743,10 +3743,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "home & kitchen",
         "table",
-        "lamp",
-        "black"
+        "black",
+        "home & kitchen",
+        "lamp"
       ]
     },
     {
@@ -3774,9 +3774,9 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "home & kitchen",
         "table",
         "white",
+        "home & kitchen",
         "lamp"
       ]
     },
@@ -3805,8 +3805,8 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "smart",
         "black",
+        "smart",
         "electronics",
         "watch"
       ]
@@ -3836,8 +3836,8 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "smart",
         "white",
+        "smart",
         "electronics",
         "watch"
       ]
@@ -3867,10 +3867,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "pan",
         "black",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -3898,10 +3898,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "pan",
         "grey",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -3929,10 +3929,10 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "pan",
         "white",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -3961,11 +3961,11 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "denim",
         "jacket",
+        "apparel",
         "l",
-        "black",
-        "apparel"
+        "denim",
+        "black"
       ]
     },
     {
@@ -3994,11 +3994,11 @@
       },
       "rating": 4.5,
       "search_keywords": [
+        "jacket",
+        "apparel",
         "m",
         "denim",
-        "jacket",
-        "black",
-        "apparel"
+        "black"
       ]
     },
     {
@@ -4027,11 +4027,11 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "denim",
         "jacket",
-        "xl",
+        "apparel",
         "navy",
-        "apparel"
+        "xl",
+        "denim"
       ]
     },
     {
@@ -4059,10 +4059,10 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "power",
-        "bank",
+        "black",
         "electronics",
-        "black"
+        "bank",
+        "power"
       ]
     },
     {
@@ -4090,10 +4090,10 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "power",
-        "bank",
         "blue",
-        "electronics"
+        "electronics",
+        "bank",
+        "power"
       ]
     },
     {
@@ -4122,11 +4122,11 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "t-shirt",
-        "s",
         "cotton",
+        "apparel",
+        "s",
         "navy",
-        "apparel"
+        "t-shirt"
       ]
     },
     {
@@ -4155,11 +4155,11 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "m",
-        "t-shirt",
-        "black",
         "cotton",
-        "apparel"
+        "apparel",
+        "black",
+        "m",
+        "t-shirt"
       ]
     },
     {
@@ -4188,11 +4188,11 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "m",
-        "t-shirt",
         "cotton",
+        "maroon",
         "apparel",
-        "maroon"
+        "m",
+        "t-shirt"
       ]
     },
     {
@@ -4221,11 +4221,11 @@
       },
       "rating": 4.1,
       "search_keywords": [
-        "t-shirt",
-        "l",
         "cotton",
+        "apparel",
         "navy",
-        "apparel"
+        "l",
+        "t-shirt"
       ]
     },
     {
@@ -4253,10 +4253,10 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "white",
-        "mug",
         "home & kitchen",
         "set",
+        "white",
+        "mug",
         "ceramic"
       ]
     },
@@ -4285,10 +4285,10 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "blue",
-        "mug",
         "home & kitchen",
         "set",
+        "mug",
+        "blue",
         "ceramic"
       ]
     },
@@ -4317,10 +4317,10 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "mug",
         "black",
         "home & kitchen",
         "set",
+        "mug",
         "ceramic"
       ]
     },
@@ -4350,10 +4350,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "maroon",
-        "apparel",
         "chinos",
-        "s"
+        "s",
+        "maroon",
+        "apparel"
       ]
     },
     {
@@ -4382,10 +4382,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "m",
-        "apparel",
         "chinos",
-        "olive"
+        "olive",
+        "m",
+        "apparel"
       ]
     },
     {
@@ -4415,9 +4415,9 @@
       "rating": 4.5,
       "search_keywords": [
         "l",
-        "apparel",
         "chinos",
-        "black"
+        "black",
+        "apparel"
       ]
     },
     {
@@ -4446,10 +4446,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "navy",
+        "chinos",
         "xl",
-        "apparel",
-        "chinos"
+        "navy",
+        "apparel"
       ]
     },
     {
@@ -4478,10 +4478,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "xl",
-        "apparel",
         "chinos",
-        "olive"
+        "xl",
+        "olive",
+        "apparel"
       ]
     },
     {
@@ -4509,10 +4509,10 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "power",
-        "bank",
+        "black",
         "electronics",
-        "black"
+        "bank",
+        "power"
       ]
     },
     {
@@ -4540,10 +4540,10 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "power",
-        "bank",
         "white",
-        "electronics"
+        "electronics",
+        "bank",
+        "power"
       ]
     },
     {
@@ -4571,10 +4571,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "pan",
         "blue",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -4602,10 +4602,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "pan",
         "white",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -4633,10 +4633,10 @@
       },
       "rating": 4.0,
       "search_keywords": [
-        "pan",
         "grey",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -4664,10 +4664,10 @@
       },
       "rating": 4.6,
       "search_keywords": [
-        "blue",
-        "mug",
         "home & kitchen",
         "set",
+        "mug",
+        "blue",
         "ceramic"
       ]
     },
@@ -4696,10 +4696,10 @@
       },
       "rating": 4.6,
       "search_keywords": [
-        "white",
-        "mug",
         "home & kitchen",
         "set",
+        "white",
+        "mug",
         "ceramic"
       ]
     },
@@ -4728,10 +4728,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "speaker",
-        "white",
         "bluetooth",
-        "electronics"
+        "white",
+        "electronics",
+        "speaker"
       ]
     },
     {
@@ -4759,10 +4759,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "speaker",
-        "blue",
         "bluetooth",
-        "electronics"
+        "blue",
+        "electronics",
+        "speaker"
       ]
     },
     {
@@ -4790,10 +4790,10 @@
       },
       "rating": 4.5,
       "search_keywords": [
-        "speaker",
         "bluetooth",
+        "black",
         "electronics",
-        "black"
+        "speaker"
       ]
     },
     {
@@ -4822,11 +4822,11 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "t-shirt",
-        "xl",
+        "cotton",
         "olive",
         "apparel",
-        "cotton"
+        "xl",
+        "t-shirt"
       ]
     },
     {
@@ -4855,11 +4855,11 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "m",
-        "t-shirt",
         "cotton",
+        "maroon",
         "apparel",
-        "maroon"
+        "m",
+        "t-shirt"
       ]
     },
     {
@@ -4888,11 +4888,11 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "t-shirt",
-        "xl",
         "cotton",
+        "maroon",
         "apparel",
-        "maroon"
+        "xl",
+        "t-shirt"
       ]
     },
     {
@@ -4921,11 +4921,11 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "t-shirt",
-        "l",
-        "black",
         "cotton",
-        "apparel"
+        "apparel",
+        "black",
+        "l",
+        "t-shirt"
       ]
     },
     {
@@ -4954,11 +4954,11 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "white",
-        "t-shirt",
-        "s",
         "cotton",
-        "apparel"
+        "apparel",
+        "s",
+        "white",
+        "t-shirt"
       ]
     },
     {
@@ -4987,11 +4987,11 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "m",
-        "t-shirt",
-        "black",
         "cotton",
-        "apparel"
+        "apparel",
+        "black",
+        "m",
+        "t-shirt"
       ]
     },
     {
@@ -5021,10 +5021,10 @@
       "rating": 3.9,
       "search_keywords": [
         "shoes",
-        "footwear",
-        "grey",
+        "6",
         "formal",
-        "6"
+        "grey",
+        "footwear"
       ]
     },
     {
@@ -5053,11 +5053,11 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "8",
         "shoes",
-        "footwear",
         "grey",
-        "formal"
+        "formal",
+        "8",
+        "footwear"
       ]
     },
     {
@@ -5087,10 +5087,10 @@
       "rating": 3.9,
       "search_keywords": [
         "shoes",
-        "footwear",
-        "black",
+        "6",
         "formal",
-        "6"
+        "black",
+        "footwear"
       ]
     },
     {
@@ -5119,11 +5119,11 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "white",
         "shoes",
-        "footwear",
+        "formal",
         "10",
-        "formal"
+        "white",
+        "footwear"
       ]
     },
     {
@@ -5153,10 +5153,10 @@
       "rating": 3.9,
       "search_keywords": [
         "shoes",
-        "footwear",
-        "black",
+        "formal",
         "10",
-        "formal"
+        "black",
+        "footwear"
       ]
     },
     {
@@ -5185,11 +5185,11 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "white",
         "shoes",
-        "footwear",
+        "9",
         "formal",
-        "9"
+        "white",
+        "footwear"
       ]
     },
     {
@@ -5218,10 +5218,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "grey",
         "9",
         "footwear",
-        "sneakers"
+        "sneakers",
+        "grey"
       ]
     },
     {
@@ -5250,10 +5250,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "6",
         "black",
         "footwear",
-        "sneakers"
+        "sneakers",
+        "6"
       ]
     },
     {
@@ -5282,10 +5282,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "grey",
         "10",
         "footwear",
-        "sneakers"
+        "sneakers",
+        "grey"
       ]
     },
     {
@@ -5314,10 +5314,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "8",
-        "grey",
         "footwear",
-        "sneakers"
+        "sneakers",
+        "grey",
+        "8"
       ]
     },
     {
@@ -5378,10 +5378,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "8",
         "white",
         "footwear",
-        "sneakers"
+        "sneakers",
+        "8"
       ]
     },
     {
@@ -5410,11 +5410,11 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "8",
         "shoes",
-        "footwear",
+        "8",
+        "running",
         "black",
-        "running"
+        "footwear"
       ]
     },
     {
@@ -5443,11 +5443,11 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "7",
         "shoes",
-        "footwear",
         "black",
-        "running"
+        "running",
+        "7",
+        "footwear"
       ]
     },
     {
@@ -5477,10 +5477,10 @@
       "rating": 4.4,
       "search_keywords": [
         "shoes",
-        "footwear",
-        "black",
         "10",
-        "running"
+        "running",
+        "black",
+        "footwear"
       ]
     },
     {
@@ -5509,11 +5509,11 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "white",
         "shoes",
-        "footwear",
+        "9",
+        "white",
         "running",
-        "9"
+        "footwear"
       ]
     },
     {
@@ -5541,10 +5541,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "electronics",
         "earbuds",
         "blue",
-        "wireless"
+        "wireless",
+        "electronics"
       ]
     },
     {
@@ -5572,10 +5572,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "electronics",
         "earbuds",
         "white",
-        "wireless"
+        "wireless",
+        "electronics"
       ]
     },
     {
@@ -5603,10 +5603,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "electronics",
+        "black",
         "earbuds",
         "wireless",
-        "black"
+        "electronics"
       ]
     },
     {
@@ -5634,8 +5634,8 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "home & kitchen",
         "table",
+        "home & kitchen",
         "lamp",
         "grey"
       ]
@@ -5665,10 +5665,10 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "home & kitchen",
         "table",
-        "lamp",
-        "black"
+        "black",
+        "home & kitchen",
+        "lamp"
       ]
     },
     {
@@ -5696,9 +5696,9 @@
       },
       "rating": 4.7,
       "search_keywords": [
-        "home & kitchen",
         "table",
         "white",
+        "home & kitchen",
         "lamp"
       ]
     },
@@ -5728,11 +5728,11 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "8",
-        "white",
         "shoes",
-        "footwear",
-        "formal"
+        "formal",
+        "white",
+        "8",
+        "footwear"
       ]
     },
     {
@@ -5761,11 +5761,11 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "7",
         "shoes",
-        "footwear",
+        "formal",
         "grey",
-        "formal"
+        "7",
+        "footwear"
       ]
     },
     {
@@ -5794,11 +5794,11 @@
       },
       "rating": 4.2,
       "search_keywords": [
-        "white",
         "shoes",
-        "footwear",
+        "formal",
         "10",
-        "formal"
+        "white",
+        "footwear"
       ]
     },
     {
@@ -5826,8 +5826,8 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "smart",
         "black",
+        "smart",
         "electronics",
         "watch"
       ]
@@ -5857,8 +5857,8 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "smart",
         "blue",
+        "smart",
         "electronics",
         "watch"
       ]
@@ -5888,10 +5888,10 @@
       },
       "rating": 3.8,
       "search_keywords": [
-        "pan",
         "white",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -5919,10 +5919,10 @@
       },
       "rating": 3.8,
       "search_keywords": [
-        "pan",
         "grey",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -5950,10 +5950,10 @@
       },
       "rating": 3.8,
       "search_keywords": [
-        "pan",
         "blue",
+        "home & kitchen",
         "non-stick",
-        "home & kitchen"
+        "pan"
       ]
     },
     {
@@ -5982,10 +5982,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "m",
-        "apparel",
+        "hoodie",
         "maroon",
-        "hoodie"
+        "m",
+        "apparel"
       ]
     },
     {
@@ -6014,10 +6014,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
+        "hoodie",
         "navy",
         "m",
-        "apparel",
-        "hoodie"
+        "apparel"
       ]
     },
     {
@@ -6046,10 +6046,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "apparel",
         "l",
+        "hoodie",
         "black",
-        "hoodie"
+        "apparel"
       ]
     },
     {
@@ -6078,10 +6078,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "navy",
-        "apparel",
+        "hoodie",
         "s",
-        "hoodie"
+        "navy",
+        "apparel"
       ]
     },
     {
@@ -6110,10 +6110,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "m",
-        "apparel",
+        "hoodie",
         "white",
-        "hoodie"
+        "m",
+        "apparel"
       ]
     },
     {
@@ -6141,10 +6141,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "mug",
         "black",
         "home & kitchen",
         "set",
+        "mug",
         "ceramic"
       ]
     },
@@ -6173,10 +6173,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "blue",
-        "mug",
         "home & kitchen",
         "set",
+        "mug",
+        "blue",
         "ceramic"
       ]
     },
@@ -6205,10 +6205,10 @@
       },
       "rating": 3.6,
       "search_keywords": [
-        "mug",
         "grey",
         "home & kitchen",
         "set",
+        "mug",
         "ceramic"
       ]
     },
@@ -6238,11 +6238,11 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "m",
-        "t-shirt",
-        "black",
         "cotton",
-        "apparel"
+        "apparel",
+        "black",
+        "m",
+        "t-shirt"
       ]
     },
     {
@@ -6271,11 +6271,11 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "t-shirt",
-        "s",
         "cotton",
+        "maroon",
         "apparel",
-        "maroon"
+        "s",
+        "t-shirt"
       ]
     },
     {
@@ -6304,11 +6304,11 @@
       },
       "rating": 3.9,
       "search_keywords": [
-        "m",
-        "t-shirt",
         "cotton",
+        "maroon",
         "apparel",
-        "maroon"
+        "m",
+        "t-shirt"
       ]
     },
     {
@@ -6433,10 +6433,10 @@
       },
       "rating": 4.6,
       "search_keywords": [
-        "6",
         "white",
         "footwear",
-        "sandals"
+        "sandals",
+        "6"
       ]
     },
     {
@@ -6464,10 +6464,10 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "power",
-        "bank",
         "white",
-        "electronics"
+        "electronics",
+        "bank",
+        "power"
       ]
     },
     {
@@ -6495,10 +6495,10 @@
       },
       "rating": 4.3,
       "search_keywords": [
-        "power",
-        "bank",
         "blue",
-        "electronics"
+        "electronics",
+        "bank",
+        "power"
       ]
     },
     {
@@ -6526,10 +6526,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "electronics",
         "earbuds",
         "blue",
-        "wireless"
+        "wireless",
+        "electronics"
       ]
     },
     {
@@ -6557,10 +6557,10 @@
       },
       "rating": 4.4,
       "search_keywords": [
-        "electronics",
+        "black",
         "earbuds",
         "wireless",
-        "black"
+        "electronics"
       ]
     },
     {
@@ -6588,10 +6588,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "electronics",
+        "black",
         "earbuds",
         "wireless",
-        "black"
+        "electronics"
       ]
     },
     {
@@ -6619,1205 +6619,10 @@
       },
       "rating": 3.7,
       "search_keywords": [
-        "electronics",
         "earbuds",
         "white",
-        "wireless"
-      ]
-    },
-    {
-      "sku": "PROD1061-M-BLA",
-      "product_id": "PROD1061",
-      "name": "Cotton T-Shirt",
-      "category": "Apparel",
-      "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "M",
-        "color": "Black"
-      },
-      "price": {
-        "amount": 769.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 5,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.6,
-      "search_keywords": [
-        "m",
-        "t-shirt",
-        "black",
-        "cotton",
-        "apparel"
-      ]
-    },
-    {
-      "sku": "PROD1061-L-NAV",
-      "product_id": "PROD1061",
-      "name": "Cotton T-Shirt",
-      "category": "Apparel",
-      "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "L",
-        "color": "Navy"
-      },
-      "price": {
-        "amount": 769.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.6,
-      "search_keywords": [
-        "t-shirt",
-        "l",
-        "cotton",
-        "navy",
-        "apparel"
-      ]
-    },
-    {
-      "sku": "PROD1061-S-BLA",
-      "product_id": "PROD1061",
-      "name": "Cotton T-Shirt",
-      "category": "Apparel",
-      "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "S",
-        "color": "Black"
-      },
-      "price": {
-        "amount": 769.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 50,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.6,
-      "search_keywords": [
-        "t-shirt",
-        "black",
-        "s",
-        "cotton",
-        "apparel"
-      ]
-    },
-    {
-      "sku": "PROD1061-S-WHI",
-      "product_id": "PROD1061",
-      "name": "Cotton T-Shirt",
-      "category": "Apparel",
-      "description": "Cotton T-Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "S",
-        "color": "White"
-      },
-      "price": {
-        "amount": 869.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 5,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.6,
-      "search_keywords": [
-        "white",
-        "t-shirt",
-        "s",
-        "cotton",
-        "apparel"
-      ]
-    },
-    {
-      "sku": "PROD1062-S-MAR",
-      "product_id": "PROD1062",
-      "name": "Kurta",
-      "category": "Apparel",
-      "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "S",
-        "color": "Maroon"
-      },
-      "price": {
-        "amount": 2989.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 5,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 3.9,
-      "search_keywords": [
-        "maroon",
-        "apparel",
-        "s",
-        "kurta"
-      ]
-    },
-    {
-      "sku": "PROD1062-L-OLI",
-      "product_id": "PROD1062",
-      "name": "Kurta",
-      "category": "Apparel",
-      "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "L",
-        "color": "Olive"
-      },
-      "price": {
-        "amount": 2989.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 12,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 3.9,
-      "search_keywords": [
-        "olive",
-        "apparel",
-        "l",
-        "kurta"
-      ]
-    },
-    {
-      "sku": "PROD1062-XL-NAV",
-      "product_id": "PROD1062",
-      "name": "Kurta",
-      "category": "Apparel",
-      "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "XL",
-        "color": "Navy"
-      },
-      "price": {
-        "amount": 2939.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 50,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 3.9,
-      "search_keywords": [
-        "navy",
-        "xl",
-        "apparel",
-        "kurta"
-      ]
-    },
-    {
-      "sku": "PROD1062-M-MAR",
-      "product_id": "PROD1062",
-      "name": "Kurta",
-      "category": "Apparel",
-      "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "M",
-        "color": "Maroon"
-      },
-      "price": {
-        "amount": 2989.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 12,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 3.9,
-      "search_keywords": [
-        "m",
-        "apparel",
-        "maroon",
-        "kurta"
-      ]
-    },
-    {
-      "sku": "PROD1063-M-MAR",
-      "product_id": "PROD1063",
-      "name": "Kurta",
-      "category": "Apparel",
-      "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "M",
-        "color": "Maroon"
-      },
-      "price": {
-        "amount": 2979.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 30,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "m",
-        "apparel",
-        "maroon",
-        "kurta"
-      ]
-    },
-    {
-      "sku": "PROD1063-XL-MAR",
-      "product_id": "PROD1063",
-      "name": "Kurta",
-      "category": "Apparel",
-      "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "XL",
-        "color": "Maroon"
-      },
-      "price": {
-        "amount": 2829.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 30,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "xl",
-        "apparel",
-        "maroon",
-        "kurta"
-      ]
-    },
-    {
-      "sku": "PROD1063-M-WHI",
-      "product_id": "PROD1063",
-      "name": "Kurta",
-      "category": "Apparel",
-      "description": "Kurta - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "M",
-        "color": "White"
-      },
-      "price": {
-        "amount": 2979.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 2,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "m",
-        "apparel",
-        "white",
-        "kurta"
-      ]
-    },
-    {
-      "sku": "PROD1064-S-NAV",
-      "product_id": "PROD1064",
-      "name": "Chinos",
-      "category": "Apparel",
-      "description": "Chinos - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "S",
-        "color": "Navy"
-      },
-      "price": {
-        "amount": 649.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 5,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "navy",
-        "apparel",
-        "chinos",
-        "s"
-      ]
-    },
-    {
-      "sku": "PROD1064-L-WHI",
-      "product_id": "PROD1064",
-      "name": "Chinos",
-      "category": "Apparel",
-      "description": "Chinos - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "L",
-        "color": "White"
-      },
-      "price": {
-        "amount": 649.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 12,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "l",
-        "apparel",
-        "chinos",
-        "white"
-      ]
-    },
-    {
-      "sku": "PROD1064-S-WHI",
-      "product_id": "PROD1064",
-      "name": "Chinos",
-      "category": "Apparel",
-      "description": "Chinos - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "S",
-        "color": "White"
-      },
-      "price": {
-        "amount": 649.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "apparel",
-        "chinos",
-        "white",
-        "s"
-      ]
-    },
-    {
-      "sku": "PROD1064-L-NAV",
-      "product_id": "PROD1064",
-      "name": "Chinos",
-      "category": "Apparel",
-      "description": "Chinos - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "L",
-        "color": "Navy"
-      },
-      "price": {
-        "amount": 649.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "navy",
-        "l",
-        "apparel",
-        "chinos"
-      ]
-    },
-    {
-      "sku": "PROD1064-S-BLA",
-      "product_id": "PROD1064",
-      "name": "Chinos",
-      "category": "Apparel",
-      "description": "Chinos - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "S",
-        "color": "Black"
-      },
-      "price": {
-        "amount": 649.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "black",
-        "apparel",
-        "chinos",
-        "s"
-      ]
-    },
-    {
-      "sku": "PROD1065-BLA",
-      "product_id": "PROD1065",
-      "name": "Bluetooth Speaker",
-      "category": "Electronics",
-      "description": "Bluetooth Speaker with premium build quality and excellent features.",
-      "attributes": {
-        "color": "Black"
-      },
-      "price": {
-        "amount": 6559.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 4.7,
-      "search_keywords": [
-        "speaker",
-        "bluetooth",
-        "electronics",
-        "black"
-      ]
-    },
-    {
-      "sku": "PROD1065-BLU",
-      "product_id": "PROD1065",
-      "name": "Bluetooth Speaker",
-      "category": "Electronics",
-      "description": "Bluetooth Speaker with premium build quality and excellent features.",
-      "attributes": {
-        "color": "Blue"
-      },
-      "price": {
-        "amount": 6559.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 4.7,
-      "search_keywords": [
-        "speaker",
-        "blue",
-        "bluetooth",
-        "electronics"
-      ]
-    },
-    {
-      "sku": "PROD1066-8-GRE",
-      "product_id": "PROD1066",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "8",
-        "color": "Grey"
-      },
-      "price": {
-        "amount": 5409.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 50,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 3.5,
-      "search_keywords": [
-        "8",
-        "shoes",
-        "footwear",
-        "grey",
-        "running"
-      ]
-    },
-    {
-      "sku": "PROD1066-7-WHI",
-      "product_id": "PROD1066",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "7",
-        "color": "White"
-      },
-      "price": {
-        "amount": 5409.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 2,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 3.5,
-      "search_keywords": [
-        "7",
-        "white",
-        "shoes",
-        "footwear",
-        "running"
-      ]
-    },
-    {
-      "sku": "PROD1066-8-WHI",
-      "product_id": "PROD1066",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "8",
-        "color": "White"
-      },
-      "price": {
-        "amount": 5509.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 2,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 3.5,
-      "search_keywords": [
-        "8",
-        "white",
-        "shoes",
-        "footwear",
-        "running"
-      ]
-    },
-    {
-      "sku": "PROD1066-6-GRE",
-      "product_id": "PROD1066",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "6",
-        "color": "Grey"
-      },
-      "price": {
-        "amount": 5359.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 2,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 10
-      },
-      "rating": 3.5,
-      "search_keywords": [
-        "shoes",
-        "footwear",
-        "grey",
-        "running",
-        "6"
-      ]
-    },
-    {
-      "sku": "PROD1067-WHI",
-      "product_id": "PROD1067",
-      "name": "Wireless Earbuds",
-      "category": "Electronics",
-      "description": "Wireless Earbuds with premium build quality and excellent features.",
-      "attributes": {
-        "color": "White"
-      },
-      "price": {
-        "amount": 6679.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 10,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.2,
-      "search_keywords": [
-        "electronics",
-        "earbuds",
-        "white",
-        "wireless"
-      ]
-    },
-    {
-      "sku": "PROD1067-BLU",
-      "product_id": "PROD1067",
-      "name": "Wireless Earbuds",
-      "category": "Electronics",
-      "description": "Wireless Earbuds with premium build quality and excellent features.",
-      "attributes": {
-        "color": "Blue"
-      },
-      "price": {
-        "amount": 6679.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 10,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.2,
-      "search_keywords": [
-        "electronics",
-        "earbuds",
-        "blue",
-        "wireless"
-      ]
-    },
-    {
-      "sku": "PROD1067-BLA",
-      "product_id": "PROD1067",
-      "name": "Wireless Earbuds",
-      "category": "Electronics",
-      "description": "Wireless Earbuds with premium build quality and excellent features.",
-      "attributes": {
-        "color": "Black"
-      },
-      "price": {
-        "amount": 6679.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 3,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.2,
-      "search_keywords": [
-        "electronics",
-        "earbuds",
         "wireless",
-        "black"
-      ]
-    },
-    {
-      "sku": "PROD1068-7-GRE",
-      "product_id": "PROD1068",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "7",
-        "color": "Grey"
-      },
-      "price": {
-        "amount": 3979.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 50,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.8,
-      "search_keywords": [
-        "7",
-        "shoes",
-        "footwear",
-        "grey",
-        "running"
-      ]
-    },
-    {
-      "sku": "PROD1068-9-WHI",
-      "product_id": "PROD1068",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "9",
-        "color": "White"
-      },
-      "price": {
-        "amount": 3979.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 12,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.8,
-      "search_keywords": [
-        "white",
-        "shoes",
-        "footwear",
-        "running",
-        "9"
-      ]
-    },
-    {
-      "sku": "PROD1068-6-WHI",
-      "product_id": "PROD1068",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "6",
-        "color": "White"
-      },
-      "price": {
-        "amount": 3879.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 2,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.8,
-      "search_keywords": [
-        "white",
-        "shoes",
-        "footwear",
-        "running",
-        "6"
-      ]
-    },
-    {
-      "sku": "PROD1068-10-BLA",
-      "product_id": "PROD1068",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "10",
-        "color": "Black"
-      },
-      "price": {
-        "amount": 3879.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 30,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.8,
-      "search_keywords": [
-        "shoes",
-        "footwear",
-        "black",
-        "10",
-        "running"
-      ]
-    },
-    {
-      "sku": "PROD1068-9-BLA",
-      "product_id": "PROD1068",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "9",
-        "color": "Black"
-      },
-      "price": {
-        "amount": 3879.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 5,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.8,
-      "search_keywords": [
-        "shoes",
-        "footwear",
-        "black",
-        "running",
-        "9"
-      ]
-    },
-    {
-      "sku": "PROD1068-10-WHI",
-      "product_id": "PROD1068",
-      "name": "Running Shoes",
-      "category": "Footwear",
-      "description": "Running Shoes - footwear item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "10",
-        "color": "White"
-      },
-      "price": {
-        "amount": 3879.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 7
-      },
-      "rating": 4.8,
-      "search_keywords": [
-        "white",
-        "shoes",
-        "footwear",
-        "10",
-        "running"
-      ]
-    },
-    {
-      "sku": "PROD1069-GRE",
-      "product_id": "PROD1069",
-      "name": "Table Lamp",
-      "category": "Home & Kitchen",
-      "description": "Table Lamp with premium build quality and excellent features.",
-      "attributes": {
-        "color": "Grey"
-      },
-      "price": {
-        "amount": 2389.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 10,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 15
-      },
-      "rating": 4.1,
-      "search_keywords": [
-        "home & kitchen",
-        "table",
-        "lamp",
-        "grey"
-      ]
-    },
-    {
-      "sku": "PROD1069-BLA",
-      "product_id": "PROD1069",
-      "name": "Table Lamp",
-      "category": "Home & Kitchen",
-      "description": "Table Lamp with premium build quality and excellent features.",
-      "attributes": {
-        "color": "Black"
-      },
-      "price": {
-        "amount": 2289.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 15
-      },
-      "rating": 4.1,
-      "search_keywords": [
-        "home & kitchen",
-        "table",
-        "lamp",
-        "black"
-      ]
-    },
-    {
-      "sku": "PROD1070-M-MAR",
-      "product_id": "PROD1070",
-      "name": "Formal Shirt",
-      "category": "Apparel",
-      "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "M",
-        "color": "Maroon"
-      },
-      "price": {
-        "amount": 1159.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 5,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 15
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "m",
-        "formal",
-        "apparel",
-        "maroon",
-        "shirt"
-      ]
-    },
-    {
-      "sku": "PROD1070-L-WHI",
-      "product_id": "PROD1070",
-      "name": "Formal Shirt",
-      "category": "Apparel",
-      "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "L",
-        "color": "White"
-      },
-      "price": {
-        "amount": 1309.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 12,
-        "status": "IN_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 15
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "white",
-        "l",
-        "formal",
-        "apparel",
-        "shirt"
-      ]
-    },
-    {
-      "sku": "PROD1070-L-NAV",
-      "product_id": "PROD1070",
-      "name": "Formal Shirt",
-      "category": "Apparel",
-      "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "L",
-        "color": "Navy"
-      },
-      "price": {
-        "amount": 1209.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": false,
-        "quantity": 0,
-        "status": "OUT_OF_STOCK"
-      },
-      "capabilities": {
-        "purchasable": false,
-        "returnable": true,
-        "return_window_days": 15
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "l",
-        "formal",
-        "navy",
-        "apparel",
-        "shirt"
-      ]
-    },
-    {
-      "sku": "PROD1070-S-WHI",
-      "product_id": "PROD1070",
-      "name": "Formal Shirt",
-      "category": "Apparel",
-      "description": "Formal Shirt - apparel item, comfortable and durable, suitable for daily wear.",
-      "attributes": {
-        "size": "S",
-        "color": "White"
-      },
-      "price": {
-        "amount": 1309.0,
-        "currency": "INR"
-      },
-      "availability": {
-        "in_stock": true,
-        "quantity": 5,
-        "status": "LOW_STOCK"
-      },
-      "capabilities": {
-        "purchasable": true,
-        "returnable": true,
-        "return_window_days": 15
-      },
-      "rating": 4.4,
-      "search_keywords": [
-        "white",
-        "s",
-        "formal",
-        "apparel",
-        "shirt"
+        "electronics"
       ]
     }
   ]
