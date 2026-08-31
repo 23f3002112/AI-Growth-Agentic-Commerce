@@ -1,7 +1,6 @@
 """
-Discovery Layer — Track 01 core: lets an external AI buyer agent find
-matching products from the agent-readable catalog via structured query,
-not free-text scraping.
+Discovery Layer
+Provides a structured query interface for the catalog.
 """
 
 import json

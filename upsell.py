@@ -1,9 +1,6 @@
 """
-Upsell & Cross-sell Layer — Track 01 Direction: "Upsell & cross-sell agent"
-
-Deliberately rule-based + explainable rather than a black-box recommender —
-per the track's bar, every suggestion needs a stated reason, not just a
-similarity score nobody can explain to a judge.
+Upsell & Cross-sell Layer
+Uses LLM reasoning to recommend complementary products.
 """
 import os
 import json

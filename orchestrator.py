@@ -1,10 +1,6 @@
 """
-Orchestrator — Track 01: AI Growth & Agentic Commerce
-Runs the full agent loop end to end: discover -> substitute (if needed) ->
-upsell -> gate -> checkout -> audit, plus a standalone campaign demo.
-
-This is the single script that demonstrates ALL FOUR example directions
-working together against one shared catalog, gate, and audit trail.
+Orchestrator
+The main entry point testing the agentic commerce flow.
 """
 
 import sys

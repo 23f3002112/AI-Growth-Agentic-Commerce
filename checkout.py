@@ -1,10 +1,6 @@
 """
-Checkout Layer — Track 01 Direction: "Conversational In-App Checkout"
-
-Simulates a Razorpay test-mode payment call. In your real submission, replace
-`_call_razorpay_test_mode()` with an actual call to Razorpay's test-mode
-Orders/Payments API (see their docs) — the surrounding gate + audit logic
-does not need to change at all, which is the point of separating them.
+Checkout Layer 
+Executes the payment against the gateway.
 """
 
 import random

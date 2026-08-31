@@ -1,7 +1,7 @@
 """
 Audit Trail Module — used by EVERY layer (discovery, checkout, upsell, gate).
-This is the single most judge-visible piece per Track 01's bar:
-"Every money action explainable, bounded and gated. Show the audit trail."
+Provides an append-only log of every significant action the agent takes,
+ensuring explainability.
 """
 
 import json

@@ -5,7 +5,6 @@ API_BASE_URL = "http://localhost:8000"
 
 st.set_page_config(page_title="Agentic Commerce", page_icon="🛍️", layout="wide")
 
-# ----------------- SESSION STATE INIT -----------------
 if "session_id" not in st.session_state:
     try:
         res = requests.post(f"{API_BASE_URL}/session")
@@ -20,7 +19,6 @@ if "session_id" not in st.session_state:
         st.error("Cannot connect to backend (http://localhost:8000). Please start FastAPI via `uvicorn api:app --reload`.")
         st.stop()
 
-# ----------------- SIDEBAR (CART) -----------------
 with st.sidebar:
     st.title("🛒 Your Cart")
     
@@ -33,15 +31,11 @@ with st.sidebar:
     st.divider()
     st.caption(f"Session ID: {st.session_state.get('session_id', 'None')}")
 
-# ----------------- MAIN AREA -----------------
 st.title("🛍️ Agentic Commerce Dashboard")
-st.caption("Track 01: Next-Gen AI Growth Agent (Clean & Professional)")
 
-tab_chat, tab_audit = st.tabs(["💬 Chat Interface", "🛡️ Audit Trail"])
+tab_chat, tab_audit = st.tabs(["💬 Chat", "🛡️ Audit Trail"])
 
-# ------------ TAB 1: CHAT ------------
 with tab_chat:
-    # Render Chat History natively
     for msg in st.session_state.get("messages", []):
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
@@ -79,7 +73,6 @@ with tab_chat:
             except requests.exceptions.ConnectionError:
                 st.error("Connection to backend lost.")
 
-# ------------ TAB 2: AUDIT TRAIL ------------
 with tab_audit:
     col1, col2 = st.columns([3, 1])
     with col1:

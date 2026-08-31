@@ -1,7 +1,7 @@
 """
 Gate Module — Explicit, bounded transaction rules.
-This is the core of "THE BAR" for Track 01: "Every money action explainable,
-bounded and gated." Nothing reaches Razorpay's API without passing through here.
+Enforces strict financial guardrails for agent actions. 
+Nothing reaches Razorpay's API without passing through here.
 
 Design principle: the gate is DUMB ON PURPOSE. It should never need an LLM to
 decide whether a transaction is allowed — hard-coded, auditable business rules

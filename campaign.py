@@ -1,9 +1,7 @@
 """
-Campaign Orchestrator — Track 01 Direction: "Campaign orchestrator"
-
+Campaign Orchestrator
 Decides WHEN to trigger a promotional nudge (e.g. abandoned high-value cart,
-slow-moving stock) and WHAT to offer — bounded by a discount ceiling so the
-agent can never invent unlimited discounts on its own.
+slow-moving stock) and WHAT to offer.
 """
 
 MAX_AUTO_DISCOUNT_PERCENT = 15  # hard ceiling — agent cannot exceed this without approval
