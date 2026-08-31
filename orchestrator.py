@@ -8,8 +8,9 @@ working together against one shared catalog, gate, and audit trail.
 """
 
 import sys
+from dotenv import load_dotenv
 
-
+load_dotenv()
 from discovery import CatalogDiscovery
 from upsell import UpsellAgent
 from gate import TransactionGate

@@ -11,3 +11,6 @@ ENV/
 
 # Ignore new JSON files, but the tracked reference JSON files will be kept by git.
 *.json
+
+# Secrets
+.env
