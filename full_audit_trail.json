@@ -1,10 +1,10 @@
 [
   {
-    "timestamp": "2026-08-31T20:26:35.029692Z",
+    "timestamp": "2026-08-31T20:47:29.482509Z",
     "session_id": "sess_001",
     "actor": "upsell",
-    "action": "suggestions_generated",
-    "reason": "Generated 2 suggestion(s) based on cart category overlap and price-threshold proximity.",
+    "action": "rule_based_suggestions",
+    "reason": "Generated 2 rule-based suggestion(s).",
     "status": "ok",
     "data": {
       "suggestions": [
@@ -24,7 +24,18 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.029728Z",
+    "timestamp": "2026-08-31T20:47:29.891235Z",
+    "session_id": "sess_001",
+    "actor": "upsell",
+    "action": "llm_fallback",
+    "reason": "LLM reasoning failed, falling back to rule-based.",
+    "status": "error",
+    "data": {
+      "error": "404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+    }
+  },
+  {
+    "timestamp": "2026-08-31T20:47:29.891277Z",
     "session_id": "sess_001",
     "actor": "checkout",
     "action": "checkout_initiated",
@@ -38,7 +49,7 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.029739Z",
+    "timestamp": "2026-08-31T20:47:29.891291Z",
     "session_id": "sess_001",
     "actor": "gate",
     "action": "transaction_approved",
@@ -49,20 +60,20 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.029980Z",
+    "timestamp": "2026-08-31T20:47:30.427974Z",
     "session_id": "sess_001",
     "actor": "checkout",
     "action": "payment_success",
-    "reason": "Payment of INR 1569.0 succeeded. Order: order_test_d79409b79898.",
+    "reason": "Payment of INR 1569.0 succeeded. Order: order_TWVvyqjLI0ZKTs.",
     "status": "ok",
     "data": {
       "success": true,
-      "order_id": "order_test_d79409b79898",
+      "order_id": "order_TWVvyqjLI0ZKTs",
       "amount": 1569.0
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.030048Z",
+    "timestamp": "2026-08-31T20:47:30.428148Z",
     "session_id": "sess_002",
     "actor": "agent",
     "action": "item_unavailable",
@@ -73,7 +84,7 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.030071Z",
+    "timestamp": "2026-08-31T20:47:30.428195Z",
     "session_id": "sess_002",
     "actor": "agent",
     "action": "substitute_found",
@@ -85,7 +96,7 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.030080Z",
+    "timestamp": "2026-08-31T20:47:30.428211Z",
     "session_id": "sess_002",
     "actor": "checkout",
     "action": "checkout_initiated",
@@ -99,7 +110,7 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.030087Z",
+    "timestamp": "2026-08-31T20:47:30.428224Z",
     "session_id": "sess_002",
     "actor": "gate",
     "action": "needs_approval",
@@ -110,7 +121,7 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.030198Z",
+    "timestamp": "2026-08-31T20:47:30.428446Z",
     "session_id": "sess_003",
     "actor": "checkout",
     "action": "checkout_initiated",
@@ -126,7 +137,7 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.030204Z",
+    "timestamp": "2026-08-31T20:47:30.428455Z",
     "session_id": "sess_003",
     "actor": "gate",
     "action": "needs_approval",
@@ -137,7 +148,7 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.030243Z",
+    "timestamp": "2026-08-31T20:47:30.428516Z",
     "session_id": "sess_004",
     "actor": "campaign",
     "action": "recovery_offer_triggered",
@@ -149,7 +160,7 @@
     }
   },
   {
-    "timestamp": "2026-08-31T20:26:35.030254Z",
+    "timestamp": "2026-08-31T20:47:30.428531Z",
     "session_id": "sess_004",
     "actor": "campaign",
     "action": "slow_stock_promo_triggered",
