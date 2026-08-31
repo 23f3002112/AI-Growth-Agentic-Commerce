@@ -89,7 +89,17 @@ class AgentSession:
         
         if len(matches) == 0:
             self.audit.log(self.session_id, "agent", "no_match_found", f"No catalog matches for query: '{user_text}'", status="error")
-            return self._respond("I couldn't find anything matching that description. Could you try rephrasing?", "no_match")
+            
+            import random
+            in_stock = [i for i in self.discovery.items if i.get("availability", {}).get("in_stock", False)]
+            if in_stock:
+                suggestions = random.sample(in_stock, min(3, len(in_stock)))
+                sug_text = "\n".join([f"- **{s['name']}** (INR {s['price']['amount']})" for s in suggestions])
+                reply = f"I couldn't find anything matching '{user_text}'. Here are some popular items we have instead:\n\n{sug_text}\n\nWhat would you like?"
+            else:
+                reply = "I couldn't find anything matching that description. Could you try rephrasing?"
+                
+            return self._respond(reply, "no_match")
             
         elif len(matches) == 1:
             item = matches[0]
