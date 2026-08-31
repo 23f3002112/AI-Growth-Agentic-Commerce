@@ -48,27 +48,24 @@ def create_session():
 def handle_message(session_id: str, req: MessageRequest):
     agent = ACTIVE_SESSIONS.get(session_id)
     if not agent:
-        raise HTTPException(status_code=404, detail="Session not found")
+        # Lazy recreate if Render spins down the server
+        agent = AgentSession(discovery, upsell, gate, checkout, campaign, audit_trail)
+        agent.session_id = session_id
+        ACTIVE_SESSIONS[session_id] = agent
     
     response = agent.handle_message(req.text)
     return response
 
 @app.get("/session/{session_id}/audit")
 def get_audit(session_id: str):
-    if session_id not in ACTIVE_SESSIONS:
-        raise HTTPException(status_code=404, detail="Session not found")
     return audit_trail.for_session(session_id)
 
 @app.get("/session/{session_id}/audit/summary")
 def get_audit_summary(session_id: str):
-    if session_id not in ACTIVE_SESSIONS:
-        raise HTTPException(status_code=404, detail="Session not found")
     return audit_trail.summary_by_actor(session_id)
 
 @app.get("/session/{session_id}/audit/needs-review")
 def get_audit_review(session_id: str):
-    if session_id not in ACTIVE_SESSIONS:
-        raise HTTPException(status_code=404, detail="Session not found")
     return audit_trail.export_for_review(session_id)
 
 @app.get("/catalog/search")
