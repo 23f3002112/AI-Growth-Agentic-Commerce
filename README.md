@@ -8,6 +8,8 @@ Agentic commerce is the future of purchasing, but most demos assume an open-worl
 - Transactions must be strictly gated (e.g., maximum limits per order).
 - Every agent action must be explainable and auditable.
 
+https://ai-growth-agentic-commerce-rajeev.streamlit.app/
+
 ## The Architecture
 Our solution leverages a multi-layer state machine that separates discovery from bounded execution.
 
