@@ -5,6 +5,13 @@ Deliberately rule-based + explainable rather than a black-box recommender —
 per the track's bar, every suggestion needs a stated reason, not just a
 similarity score nobody can explain to a judge.
 """
+import os
+import json
+
+try:
+    import google.generativeai as genai
+except ImportError:
+    genai = None
 
 
 class UpsellAgent:
@@ -56,9 +63,43 @@ class UpsellAgent:
 
         suggestions = suggestions[:max_suggestions]
 
-        self.audit.log(session_id, "upsell", "suggestions_generated",
-                        f"Generated {len(suggestions)} suggestion(s) based on cart category "
-                        f"overlap and price-threshold proximity.",
+        self.audit.log(session_id, "upsell", "rule_based_suggestions",
+                        f"Generated {len(suggestions)} rule-based suggestion(s).",
                         data={"suggestions": suggestions})
+
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if api_key and genai and suggestions:
+            try:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel("gemini-1.5-flash")
+                prompt = (
+                    f"You are an AI shopping assistant. "
+                    f"The user has these items in their cart: {json.dumps([{'name': i['name'], 'price': i['price']} for i in cart])}\n"
+                    f"Here are the rule-based upsell suggestions: {json.dumps(suggestions)}\n"
+                    "Pick the SINGLE best suggestion to show the user. "
+                    "Write a natural, customer-facing one-sentence reason why they should buy it. "
+                    "Return ONLY strict JSON in this exact format: {\"best_sku\": \"...\", \"customer_facing_reason\": \"...\"}"
+                )
+                response = model.generate_content(prompt)
+                
+                llm_text = response.text
+                import re
+                json_match = re.search(r'\{.*\}', llm_text, re.DOTALL)
+                if json_match:
+                    llm_data = json.loads(json_match.group(0))
+                    best_sku = llm_data.get("best_sku")
+                    
+                    best_suggestion = next((s for s in suggestions if s["sku"] == best_sku), None)
+                    if best_suggestion:
+                        best_suggestion["reason"] = llm_data.get("customer_facing_reason", best_suggestion["reason"])
+                        self.audit.log(session_id, "upsell", "llm_enhanced_suggestion",
+                                        f"LLM picked {best_sku} and rewrote the reason.",
+                                        data={"llm_suggestion": best_suggestion})
+                        return [best_suggestion]
+            except Exception as e:
+                self.audit.log(session_id, "upsell", "llm_fallback",
+                                "LLM reasoning failed, falling back to rule-based.",
+                                data={"error": str(e)}, status="error")
+                pass
 
         return suggestions

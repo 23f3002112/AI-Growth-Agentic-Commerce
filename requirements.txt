@@ -1,2 +1,3 @@
-# No external dependencies are required.
-# All modules used (json, random, uuid, time, datetime, argparse, sys) are part of the Python Standard Library.
+razorpay
+google-generativeai
+python-dotenv

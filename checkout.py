@@ -9,6 +9,8 @@ does not need to change at all, which is the point of separating them.
 
 import random
 import uuid
+import os
+import razorpay
 
 
 class CheckoutAgent:
@@ -18,14 +20,25 @@ class CheckoutAgent:
 
     def _call_razorpay_test_mode(self, session_id, amount):
         """
-        STUB for Razorpay test-mode API call.
-        Replace with real SDK call:
-            razorpay_client.order.create({"amount": amount*100, "currency": "INR", ...})
-        Simulated here with a 90% success rate to demonstrate real failure handling.
+        Calls real Razorpay test-mode API using SDK and environment keys.
         """
-        success = random.random() < 0.9
-        order_id = f"order_test_{uuid.uuid4().hex[:12]}"
-        return {"success": success, "order_id": order_id, "amount": amount}
+        key_id = os.environ.get("RAZORPAY_KEY_ID")
+        key_secret = os.environ.get("RAZORPAY_KEY_SECRET")
+
+        if not key_id or not key_secret:
+            return {"success": False, "order_id": None, "amount": amount, "error": "Missing Razorpay keys in environment"}
+
+        try:
+            client = razorpay.Client(auth=(key_id, key_secret))
+            # Create a test order
+            order = client.order.create({
+                "amount": int(amount * 100),
+                "currency": "INR",
+                "receipt": f"receipt_{session_id}"
+            })
+            return {"success": True, "order_id": order["id"], "amount": amount}
+        except Exception as e:
+            return {"success": False, "order_id": None, "amount": amount, "error": str(e)}
 
     def checkout(self, session_id, cart, requires_human_approval=False):
         """
@@ -73,7 +86,7 @@ class CheckoutAgent:
         else:
             # THIS is the required "one failure handled gracefully" case
             self.audit.log(session_id, "checkout", "payment_failed",
-                            "Razorpay test-mode payment call failed (simulated gateway timeout). "
+                            "Razorpay test-mode payment call failed. "
                             "No charge was made; order not created.",
                             data=payment_result, status="error")
             return {
